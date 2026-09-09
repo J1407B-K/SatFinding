@@ -1,0 +1,3 @@
+python-sat==1.9.dev15
+pynauty==2.8.8.1
+six==1.17.0

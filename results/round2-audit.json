@@ -1,0 +1,38 @@
+{
+  "permutation_rechecked": {
+    "random": 0,
+    "jaccard": 1,
+    "minhash": 1,
+    "tfidf": 1,
+    "bm25": 2,
+    "wl": 4,
+    "oracle_candidate": 100
+  },
+  "motif_rechecked": {
+    "ternary_context_control": {
+      "random": 1,
+      "exact": 0,
+      "canonical": 0,
+      "jaccard": 2,
+      "minhash": 1,
+      "tfidf": 2,
+      "bm25": 2,
+      "wl": 7,
+      "proof_wl": 24,
+      "proof_canonical": 24
+    },
+    "mixed_binary_context": {
+      "random": 6,
+      "exact": 0,
+      "canonical": 0,
+      "jaccard": 4,
+      "minhash": 7,
+      "tfidf": 4,
+      "bm25": 4,
+      "wl": 5,
+      "proof_wl": 7,
+      "proof_canonical": 0
+    }
+  },
+  "note": "Oracle-candidate hits are audited but are NOT counted as real retrieval successes."
+}

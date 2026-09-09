@@ -1,0 +1,14 @@
+{
+  "note": "Separate sequential measurement; Glucose initialization, solve, model extraction and destruction only. Verification and cache overhead excluded from native reference, but INCLUDED in semantic total.",
+  "benchmark_sha256": "8101b1bd304f7f352a2d4185dd911f04f43199361525e458d675e5083ef17837",
+  "seconds": [
+    2.098566024986212,
+    2.142020724979375,
+    2.098750577035389,
+    2.100100785983159,
+    2.1226584290106985
+  ],
+  "median_seconds": 2.100100785983159,
+  "semantic_total_seconds": 1.9551687879920792,
+  "speedup": 1.0741276143938048
+}

@@ -1,0 +1,3 @@
+-r requirements-bench.txt
+igraph==1.0.0
+texttable==1.7.0

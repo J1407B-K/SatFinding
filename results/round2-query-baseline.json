@@ -1,0 +1,9 @@
+{
+  "note": "Separate measurement: 100 same renamed queries, Glucose plus SAT certificate check; excludes loading, history preparation, and result serialization.",
+  "seconds": [
+    0.37462266399961663,
+    0.3656181380010821,
+    0.3623834110003372
+  ],
+  "median_seconds": 0.3656181380010821
+}
