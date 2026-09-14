@@ -7,7 +7,7 @@ for target in ['T8','T10']:
  inp=ROOT/f'results/full_propagation_frontier_observer_v2/inputs/{target}_qualification.cnf'
  for mode in ['OFF','ON1','ON2']:
   d=OUT/'runs'/target/mode;d.mkdir(parents=True,exist_ok=False)
-  cmd=[binary,str(inp),str(d/'proof.drup'),str(d/'trace.jsonl.gz'),'off' if mode=='OFF' else 'on'];start=time.time()
+  cmd=[binary,str(inp),str(d/'proof.drup'),str(d/'trace.jsonl.gz.gz'),'off' if mode=='OFF' else 'on'];start=time.time()
   with (d/'stdout.txt').open('w') as so,(d/'stderr.txt').open('w') as se:r=subprocess.run(cmd,stdout=so,stderr=se)
   invocation={'command':cmd,'exit_code':r.returncode,'start':start,'end':time.time(),'binary_sha256':sha(binary),'input_sha256':sha(inp),'historical_exact_replay':False,'qualification_case_label':target};dump(d/'invocation.json',invocation);r.check_returncode()
   summary=json.loads((d/'stdout.txt').read_text().splitlines()[-1]);dump(d/'summary.json',summary)

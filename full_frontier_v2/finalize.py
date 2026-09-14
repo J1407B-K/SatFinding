@@ -12,7 +12,7 @@ def main():
   for mode in ['OFF','ON1','ON2']:
    d=OUT/'runs'/t/mode;r={'case':t,'mode':mode}
    for k,n in {'invocation':'invocation.json','summary':'summary.json','proof_check':'proof_check.json','stdout':'stdout.txt','stderr':'stderr.txt','proof':'proof.drup','checker_stdout':'checker.stdout.txt','checker_stderr':'checker.stderr.txt'}.items():r[k]=art(d/n)
-   if mode!='OFF':r['trace']=art(d/'trace.jsonl.gz')
+   if mode!='OFF':r['trace']=art(d/'trace.jsonl.gz.gz')
    m['runs'].append(r)
  for k,n in [('self_consistency','OBSERVER_SELF_CONSISTENCY.json'),('nonperturbation','OBSERVER_NONPERTURBATION.json'),('stability','OBSERVER_CROSS_RUN_STABILITY.json')]:m[k]=art(OUT/n)
  for p in [OUT/'build/stdout.txt',OUT/'build/stderr.txt',* [ROOT/'full_frontier_v2'/n for n in ['build.py','run_qualification.py','audit.py','finalize.py']],ROOT/'verify_experiment_evidence.py']:m['artifacts'].append(art(p))

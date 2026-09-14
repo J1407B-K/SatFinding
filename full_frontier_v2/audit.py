@@ -53,10 +53,10 @@ def main():
   hs=[]
   for d in ds[1:]:
    h=hashlib.sha256()
-   with gzip.open(d/'trace.jsonl.gz','rb') as f:
+   with gzip.open(d/'trace.jsonl.gz.gz','rb') as f:
     for b in iter(lambda:f.read(1048576),b''):h.update(b)
    hs.append(h.hexdigest())
-   audits[str(d.relative_to(OUT))]=audit(d/'trace.jsonl.gz');print(target,d.name,'AUDITED',flush=True)
+   audits[str(d.relative_to(OUT))]=audit(d/'trace.jsonl.gz.gz');print(target,d.name,'AUDITED',flush=True)
   stable[target]={'canonical_sha256':hs,'PASS':hs[0]==hs[1]};assert stable[target]['PASS']
  dump(OUT/'OBSERVER_SELF_CONSISTENCY.json',audits);dump(OUT/'OBSERVER_NONPERTURBATION.json',nonpert);dump(OUT/'OBSERVER_CROSS_RUN_STABILITY.json',stable)
 if __name__=='__main__':main()

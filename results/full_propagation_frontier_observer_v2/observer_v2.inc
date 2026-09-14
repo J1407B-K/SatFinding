@@ -63,4 +63,4 @@ std::string Solver::canonical_heuristic(){
 void Solver::hc_boundary(){if(last_starts!=(HU)starts){last_starts=starts;restart_conflict=conflicts;}hc_observe();}
 void Solver::hc_observe(){ return; }
 
-static void frontier_init(){ if(!frontier_on){const char* e=getenv("FRONTIER_OBSERVER"); if(e&&std::string(e)=="on"){frontier_on=true; frontier_trace.open((output_dir+"/trace.jsonl").c_str());}}}
+static void frontier_init(){ if(!frontier_on){const char* e=getenv("FRONTIER_OBSERVER"); if(e&&std::string(e)=="on"){frontier_on=true; frontier_trace.open((output_dir+"/trace.jsonl.gz").c_str());}}}
