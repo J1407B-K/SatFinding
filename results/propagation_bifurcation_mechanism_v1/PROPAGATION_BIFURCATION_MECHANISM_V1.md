@@ -1,0 +1,3 @@
+# Propagation Bifurcation Mechanism v1
+
+Exploratory mechanistic study reusing 3 auditable states, 5 HIGH actions, and 3 matched NON-HIGH controls from the sealed branch-displacement dataset. All reused routes and proofs are VERIFIED. Canonical event alignment observes propagation-first divergence for 5/5 HIGH actions. The available bounded observer artifacts do not contain sufficient legal counterfactual hooks to establish reconvergence, irreversible closure divergence, conflict-cone membership, or causal restoration. Result: **C — PROPAGATION_DIVERGENCE_OBSERVED_BUT_CAUSAL_CHANNEL_UNRESOLVED**.

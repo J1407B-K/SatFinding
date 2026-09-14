@@ -1,0 +1,1 @@
+Next: add a legality-preserving propagation queue choice hook at the first downstream divergence, then rerun restore/reproduce counterfactuals and compact implication-graph extraction before testing later conflict accumulation or restart interaction.
