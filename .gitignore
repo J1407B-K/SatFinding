@@ -1,3 +1,55 @@
 __pycache__/
 *.pyc
 .venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Compiler, debugger, profiler, and local executable outputs.
+build/
+debug/
+asan/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dSYM/
+*.profraw
+*.profdata
+/core
+/core.*
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Reproducible native harness binaries remain local. Their locked copies and
+# hashes live in the scientific archive; source and build recipes are tracked.
+/baseline
+/canonical_collector_native
+/frozen_replay_native
+/harness_v2/canonical_collector_native
+/harness_v2/frozen_replay_native
+/harness_v3/canonical_collector_native
+/harness_v3/frozen_replay_native
+
+# Generated root-level measurement table; reviewed summaries belong in docs.
+/extension_width_results.csv
+
+# Local external research bundle (papers, upstream code and benchmark datasets).
+/artifact_/
+.DS_Store
+
+# Regenerable solver inputs and raw completion proofs. Keep JSON inputs,
+# compact checked proofs, selections, measurements, and reports versionable.
+/results/**/*.cnf
+/results/**/*.drup
+/results/round3_certificates/
+/results/round3_large_smoke_certificates/
+
+# Local research evidence archive. Keep artifacts at their canonical paths so
+# manifests and reports remain valid, while pruning thousands of generated
+# experiment files from Git discovery. Existing tracked files are unaffected;
+# explicitly promote a new reviewed artifact with `git add -f <path>`.
+/results/*

@@ -4,6 +4,55 @@
 核心运行要求：Python 3.10+，无第三方依赖。真实基准额外使用 PySAT / pynauty；
 第二轮结构匹配使用 igraph 和 Linux fork 子进程。
 
+当前工作已转向 CDCL search-control / propagation scheduling。恢复研究上下文时先阅读
+[RESEARCH_STATE.md](RESEARCH_STATE.md)，关键证据路径见
+[SCIENTIFIC_ARTIFACT_INDEX.md](SCIENTIFIC_ARTIFACT_INDEX.md)。
+
+## Current Research Status
+
+### Core phenomenon
+
+合法的 redundant lemma 或合法 early propagation 的时机可以显著改变 CDCL 的长期搜索轨迹。
+一个固定案例从约 345k analysis operations 降至约 174k；后续实验表明，该效果不要求 Gold
+lemma 长期存在、Gold-specific reason provenance 或持续使用 Gold。原始 CNF clause 本身可以
+合法推出关键 literal，现象更接近 propagation scheduling 对 search-control 的影响。
+
+### Replicated state-action interaction
+
+在同一个 exact solver state 下，不同合法 propagation actions 可以分别产生 high leverage 和
+zero effect；历史 T8/T10 exact-state experiments 提供了重复的、带完整 continuation 与 proof
+验证的证据。因此当前最稳定的经验模型是 `effect = f(state, action)`。
+
+### Prospective temporal v3
+
+正式 prospective cohort 包含 18 states、85 frozen actions 和 103 routes。Canonical logical replay、
+canonical heuristic replay 与 proof verification 均为 103/103；action verification 为 85/85。
+其中 SENSITIVE=1，HIGH=1/85（1.18%），唯一 HIGH 是 -21.81% remaining-ops speedup。封存结论为
+**B — NO_SIMPLE_TEMPORAL_STATE_ABSTRACTION**；该结果不应被旧 invalid cohorts 或后续探索重算。
+
+### Opportunity discovery v1
+
+探索性结论为 **B — NO_OBVIOUS_INTERVENTION_OPPORTUNITY_DESCRIPTOR_V1**。Pending/qhead frontier
+关系没有区分力。唯一 v3 同-state pair 中，HIGH action 的 implied variable activity rank / semantic
+heap rank 为 5/3，zero action 为 96/79；这是显著的机制线索，但历史 positives 缺少可对齐的
+activity/heap state，不能据此晋级 descriptor 或 gate。
+
+### Current open question
+
+为什么极少数合法 early propagations 能撬动长期 CDCL trajectory，而绝大多数合法 intervention
+几乎没有影响？当前优先机制假设是 **branch displacement / interaction with high-priority branching
+state**，但尚未验证。下一步只建议做 bounded mechanistic branch-displacement test，不做 ML、gate、
+controller、direction prediction 或部署型 micro-rollout。
+
+### Invalid and historical experiments
+
+- Temporal cohort v1：`COHORT_V1_INVALID_FOR_SENSITIVITY_LABELING`。
+- Temporal cohort v2：`INVALID_FOR_SCIENTIFIC_PROMOTION`。
+- 旧 qualification packages：`OLD_QUALIFICATION_PACKAGES_INVALID_IDENTITY`。
+- Harness qualification v3：`HARNESS_V3_CAPABILITY_QUALIFIED = true`。
+
+Invalid artifacts 只用于解释研究演进，不能参与正式 labels 或 scientific promotion。
+
 ```sh
 python3 demo.py
 python3 demo_module.py
@@ -49,6 +98,8 @@ UNSAT 大实例证明格式、真实求解器 residual 轨迹和学习式匹配�
 
 ## 证明与实验
 
+- [Round 3 结果](ROUND3_RESULTS.md)与[协议](docs/round3-protocol.md)：inverse-resolution splitting、共享 Resolution DAG、canonical parity 句法登记、GF(2) 检查与五路 CNF/oracle 对照。
+- [跨区域 XOR 基线协议](docs/global-xor-protocol.md)：CNF-only parity 识别、全局代数证书和限时 CDCL 对照；[结果](results/global_xor_report.md)。这不是 CDCL 历史学习或一般 SAT 结构发现。
 - [ProofModule 接口与 soundness](docs/proof-modules.md)：扩展定义、fresh variable 分配、带作用域的结论和模块组合。
 - [第二轮研究结论](ROUND2_RESULTS.md)：独立重命名、结构匹配、非父子 motif 和四种检索基线。
 - [第一轮研究结论](RESEARCH_RESULTS.md)：四项目标的证据、数值和适用范围。
