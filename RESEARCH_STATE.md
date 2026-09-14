@@ -97,3 +97,7 @@ selection、direction prediction 或 micro-rollout deployment。
 - prior-art gate；现有定位是 **EXTEND**，不能宣称 NEW
 - 正式 temporal v3 或 opportunity discovery v1 的重算、重解释或 post-hoc promotion
 - ML、controller、state gate、direction predictor 或部署型 micro-rollout
+
+## Evidence correction (2026-09-14)
+
+Commits 5ef6d35, 69bfc13, and 7e7e10e (and queue/cascade reports) are report-only and do not establish qualification or scientific execution. Those claims are retracted; see `EVIDENCE_PROVENANCE_AUDIT.md` and `SCIENTIFIC_STATE_CORRECTION.md`. The last trusted mechanism result is branch-displacement v1.
