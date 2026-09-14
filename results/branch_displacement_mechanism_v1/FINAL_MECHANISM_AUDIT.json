@@ -1,0 +1,242 @@
+{
+  "active_integrity_checks": 2196,
+  "active_integrity_passed": true,
+  "alignment": "Raw event mismatch retained. A separate diagnostic omits one baseline natural enqueue corresponding to the early injection, then compares ordered downstream events with no resynchronization. Both classify all five HIGH actions as PROPAGATION_FIRST. Complete continuation counters/proofs are verified beyond bounded 10000-event observer.",
+  "engineering_corrections": [
+    "semantic_order returns one-based variable IDs; first observer attempt had off-by-one rank/top lookup and is excluded",
+    "CF hooks preserve exactly one native RNG draw per branch; canonical activity mode required",
+    "final retained builds bind every reported route by binary and source-manifest hashes"
+  ],
+  "final_routes_verified": 34,
+  "instrumentation_patches": [
+    {
+      "patch": "v3_instrumentation.patch",
+      "sha256": "89a128bd2b437c327f0b6e226fe2cbe5aff8bfa70fc931f08f451985d1395a50",
+      "target": "v3"
+    },
+    {
+      "patch": "T10_instrumentation.patch",
+      "sha256": "e03d8e0794428ab56d9d14dab5d6a55d6c3f3d7901f5d09ccec41b89c9a480c6",
+      "target": "T10"
+    },
+    {
+      "patch": "T8_instrumentation.patch",
+      "sha256": "91e822766311c7cd02d072806816a927461b863e9f35bb44bb24a7d14b66af02",
+      "target": "T8"
+    }
+  ],
+  "invalid_attempts_excluded": [
+    "invalid_rank_index_attempt",
+    "initial_observer_runs",
+    "initial_historical_runs",
+    "pre_binding_runs",
+    "pre_binding_historical_runs"
+  ],
+  "route_checks": [
+    {
+      "binary_sha256": "f46f00815bc4448df58a7ca7304645819522f7162b1fb704c10ae3641011ee73",
+      "proof_sha256": "fa03d36c13423ab8968519bbcc6893b665d6073c72cdc117f09093436bb870ea",
+      "route": "results/branch_displacement_mechanism_v1/runs/HIGH/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "f46f00815bc4448df58a7ca7304645819522f7162b1fb704c10ae3641011ee73",
+      "proof_sha256": "91c8785cbe727015ca3cd9d996b4193879ec26f16eccc2cbfe9f28460f5a133f",
+      "route": "results/branch_displacement_mechanism_v1/runs/SUPPRESS_BRANCH1/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "f46f00815bc4448df58a7ca7304645819522f7162b1fb704c10ae3641011ee73",
+      "proof_sha256": "89407fa1cdcb3a81b27b622e6ee5eed6445212278cca4e2dbadb3a9772ffe0cb",
+      "route": "results/branch_displacement_mechanism_v1/runs/HIGH_RESTORE1/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "f46f00815bc4448df58a7ca7304645819522f7162b1fb704c10ae3641011ee73",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/runs/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "f46f00815bc4448df58a7ca7304645819522f7162b1fb704c10ae3641011ee73",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/runs/CONTROL_BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "f46f00815bc4448df58a7ca7304645819522f7162b1fb704c10ae3641011ee73",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/runs/CONTROL/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "59da931962fb85601f419cd15940f5c069de859d51603c5976169abae321e575",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R1/ACTION_1/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R1/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "59da931962fb85601f419cd15940f5c069de859d51603c5976169abae321e575",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R1_suppress/ACTION_1/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "78f2851d6eb7f4fff696838eee066c2a2d39ae8fed2700d66b17f876a406569f",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R1_suppress/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R1/ACTION_1/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R1/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R5_restore/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "9500b5256cc40e058b47b0987711dc6e2ef9dcb4a31e3e071aa5a6aa86235f0e",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R5_restore/ACTION_5/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R5/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "f8530baff8ff7bbf9626be3625f283c7c58f6b2b26a1169ddc3f2166f6d8e566",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R5/ACTION_5/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R2/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "dfcba7fccc87711c0294aca1545b693f47eab68780570155ae514d8e4646fb04",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R2/ACTION_2/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "d4919757d92b7ed6b49b5d35e1db526bc6710fc36c53cfc2c2936f2b089b97a3",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R4_suppress/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "719a3c493292163e9d1ebdb5c8748c744be29c4789d96b2460d7e106eaa0bb4b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R4_suppress/ACTION_4/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R3/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R3/ACTION_3/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "78f2851d6eb7f4fff696838eee066c2a2d39ae8fed2700d66b17f876a406569f",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R2_suppress/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "dfcba7fccc87711c0294aca1545b693f47eab68780570155ae514d8e4646fb04",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R2_suppress/ACTION_2/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R2_restore/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "755dec70f1e54d0d2d9f9fb8d374cfe0c975acb75bc46d714f2fc5738185748c",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R2_restore/ACTION_2/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R4/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "719a3c493292163e9d1ebdb5c8748c744be29c4789d96b2460d7e106eaa0bb4b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R4/ACTION_4/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R4_restore/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bb5fadc647bf6a47d30b4e980ba7e09bc9846961093d0651f0a0001adddbd6ab",
+      "proof_sha256": "8c5233978f1afd529b21796859aa63fcb72197925b3ef2bd827346a77525066b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T8_S5_R4_restore/ACTION_4/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "9500b5256cc40e058b47b0987711dc6e2ef9dcb4a31e3e071aa5a6aa86235f0e",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R1_restore/ACTION_1/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R1_restore/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "78f2851d6eb7f4fff696838eee066c2a2d39ae8fed2700d66b17f876a406569f",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R5_suppress/BASELINE/result.json",
+      "verified": true
+    },
+    {
+      "binary_sha256": "bac0835f0671a263cd91a75d7a78a546d6bfa217ca1add80eadfa2e78148d75d",
+      "proof_sha256": "f8530baff8ff7bbf9626be3625f283c7c58f6b2b26a1169ddc3f2166f6d8e566",
+      "route": "results/branch_displacement_mechanism_v1/historical_runs/HIST_T10_FIXED_R5_suppress/ACTION_5/result.json",
+      "verified": true
+    }
+  ],
+  "sealed_artifacts_modified": 0
+}

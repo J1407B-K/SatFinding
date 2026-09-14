@@ -1,0 +1,182 @@
+[
+  {
+    "first_displaced_branch": [
+      1,
+      {
+        "activity": 0,
+        "activity_rank": 329.5,
+        "clause": [],
+        "conflicts": 1,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 64,
+        "heap_member": true,
+        "heap_rank": 339,
+        "index": 150,
+        "injection": false,
+        "level": 16,
+        "literal": 176,
+        "top_candidate": 545,
+        "type": "decision",
+        "value": 2
+      },
+      {
+        "activity": 1,
+        "activity_rank": 37,
+        "clause": [],
+        "conflicts": 1,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 67,
+        "heap_member": true,
+        "heap_rank": 55,
+        "index": 150,
+        "injection": false,
+        "level": 16,
+        "literal": -466,
+        "top_candidate": 85,
+        "type": "decision",
+        "value": 2
+      }
+    ],
+    "interpretation": "downstream branch mediation test; distinct from direct displacement of the early implied variable",
+    "rank": 1,
+    "state_id": "HIST_T10_FIXED",
+    "target": "T10"
+  },
+  {
+    "first_displaced_branch": [
+      1,
+      {
+        "activity": 0,
+        "activity_rank": 329.5,
+        "clause": [],
+        "conflicts": 1,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 64,
+        "heap_member": true,
+        "heap_rank": 528,
+        "index": 150,
+        "injection": false,
+        "level": 16,
+        "literal": 176,
+        "top_candidate": 545,
+        "type": "decision",
+        "value": 2
+      },
+      {
+        "activity": 1,
+        "activity_rank": 34,
+        "clause": [],
+        "conflicts": 1,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 67,
+        "heap_member": true,
+        "heap_rank": 27,
+        "index": 149,
+        "injection": false,
+        "level": 16,
+        "literal": -289,
+        "top_candidate": 291,
+        "type": "decision",
+        "value": 2
+      }
+    ],
+    "interpretation": "downstream branch mediation test; distinct from direct displacement of the early implied variable",
+    "rank": 2,
+    "state_id": "HIST_T10_FIXED",
+    "target": "T10"
+  },
+  {
+    "first_displaced_branch": [
+      1,
+      {
+        "activity": 0,
+        "activity_rank": 329.5,
+        "clause": [],
+        "conflicts": 1,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 64,
+        "heap_member": true,
+        "heap_rank": 182,
+        "index": 150,
+        "injection": false,
+        "level": 16,
+        "literal": 176,
+        "top_candidate": 545,
+        "type": "decision",
+        "value": 2
+      },
+      {
+        "activity": 1,
+        "activity_rank": 37,
+        "clause": [],
+        "conflicts": 1,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 64,
+        "heap_member": true,
+        "heap_rank": 34,
+        "index": 144,
+        "injection": false,
+        "level": 16,
+        "literal": -468,
+        "top_candidate": 85,
+        "type": "decision",
+        "value": 2
+      }
+    ],
+    "interpretation": "downstream branch mediation test; distinct from direct displacement of the early implied variable",
+    "rank": 5,
+    "state_id": "HIST_T10_FIXED",
+    "target": "T10"
+  },
+  {
+    "first_displaced_branch": [
+      1,
+      {
+        "activity": 0,
+        "activity_rank": 337,
+        "clause": [],
+        "conflicts": 2,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 234,
+        "heap_member": true,
+        "heap_rank": 356,
+        "index": 525,
+        "injection": false,
+        "level": 18,
+        "literal": -441,
+        "top_candidate": 447,
+        "type": "decision",
+        "value": 2
+      },
+      {
+        "activity": 1,
+        "activity_rank": 82.5,
+        "clause": [],
+        "conflicts": 2,
+        "decision_ordinal": 1,
+        "decisions": 1,
+        "dequeues": 227,
+        "heap_member": true,
+        "heap_rank": 85,
+        "index": 509,
+        "injection": false,
+        "level": 18,
+        "literal": 100,
+        "top_candidate": 562,
+        "type": "decision",
+        "value": 2
+      }
+    ],
+    "interpretation": "downstream branch mediation test; distinct from direct displacement of the early implied variable",
+    "rank": 4,
+    "state_id": "HIST_T8_S5",
+    "target": "T8"
+  }
+]

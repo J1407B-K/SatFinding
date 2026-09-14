@@ -1,0 +1,34 @@
+{
+  "auditable_high_actions": 5,
+  "auditable_high_states": 3,
+  "causal_interpretation": "All first downstream divergences precede the first new decision; historical checkpoint priorities do not replicate v3 high activity. Counterfactuals intervene on later changed branches, not the already naturally implied variable at the checkpoint; cost similarity alone is not channel identification.",
+  "first_downstream_distribution": {
+    "PROPAGATION_FIRST": 5
+  },
+  "high_initial_fates": {
+    "B_NATURAL_PROPAGATION": 5
+  },
+  "historical_high_initial_activity": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "next_decision_counts": {
+    "1": 0,
+    "2": 1,
+    "4": 1,
+    "8": 1
+  },
+  "next_mechanism": "PROPAGATION_ORDER / IMPLICATION_GRAPH BIFURCATION",
+  "restoration_performed": 5,
+  "restoration_substantial_attenuation_count": 0,
+  "result": "B",
+  "scope": "Direct removal of a high-priority imminent branch is not the primary initiating carrier in these five actions; downstream branch choices can still mediate cost. Not a universal rejection of branch mediation.",
+  "suppression_action_comparisons": 5,
+  "suppression_next8_equal_high_count": 0,
+  "suppression_partial_cost_reproduction_count": 4,
+  "suppression_reproduces_first_high_changed_learned_count": 0,
+  "suppression_unique_interventions": 3,
+  "verdict": "BRANCH_DISPLACEMENT_NOT_PRIMARY_MECHANISM"
+}
