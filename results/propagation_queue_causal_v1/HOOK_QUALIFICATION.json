@@ -1,0 +1,1 @@
+{"PROPAGATION_QUEUE_HOOK_QUALIFIED":true,"native":"PASS","observe_only":"PASS","legal_reorder_smoke":"PASS","states":["T8 exact","T10 exact"],"proof":"VERIFIED","max_queue_reorders":1}
