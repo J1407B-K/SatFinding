@@ -1,0 +1,3 @@
+# Scientific artifacts are hash-addressed. Preserve their exact bytes, including
+# line endings, whenever a reviewed result is explicitly committed.
+results/** -text

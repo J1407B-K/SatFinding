@@ -1,0 +1,14 @@
+{
+  "LOCK_VERIFIED": true,
+  "READY_FOR_MICRO_ROLLOUT_ACTION_SELECTION": false,
+  "actions": 85,
+  "all_locked_components_unchanged": true,
+  "all_qualification_artifacts_unchanged": true,
+  "heldout_gate": "SKIP_STATE_GATE_BY_PROTOCOL",
+  "independent_delta_formula_audit": true,
+  "route_integrity": true,
+  "routes": 103,
+  "science_inputs_unchanged": true,
+  "scientific_result": "B",
+  "states": 18
+}

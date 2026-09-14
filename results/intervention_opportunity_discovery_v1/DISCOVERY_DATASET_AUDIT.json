@@ -1,0 +1,247 @@
+{
+  "v3": {
+    "included": true,
+    "states": 18,
+    "actions": 85,
+    "source_manifest_sha256": "32a9804ee6431f2ce93a4e98ee69705ba574bf7b117b493ed94f6b8edbcd9626",
+    "usage": "discovery only; sealed v3 conclusion unchanged"
+  },
+  "historical": [
+    {
+      "state_id": "HIST_T10_FIXED",
+      "target": "T10",
+      "state_identity": "422271443557180589",
+      "identity_scope": "same-parent OS-fork experimental state only; not cross-run canonical",
+      "HIGH_actions": 3,
+      "included": true,
+      "actions": [
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T10_FIXED",
+          "action_rank": 1,
+          "action_id": 831,
+          "HIGH_LEVERAGE": true,
+          "delta_percent": -26.201036682836552,
+          "proof_sha256": "59da931962fb85601f419cd15940f5c069de859d51603c5976169abae321e575"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T10_FIXED",
+          "action_rank": 2,
+          "action_id": 833,
+          "HIGH_LEVERAGE": true,
+          "delta_percent": -46.91751694790821,
+          "proof_sha256": "dfcba7fccc87711c0294aca1545b693f47eab68780570155ae514d8e4646fb04"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T10_FIXED",
+          "action_rank": 3,
+          "action_id": 1269,
+          "HIGH_LEVERAGE": false,
+          "delta_percent": 0.0,
+          "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T10_FIXED",
+          "action_rank": 4,
+          "action_id": 1271,
+          "HIGH_LEVERAGE": false,
+          "delta_percent": 0.0,
+          "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T10_FIXED",
+          "action_rank": 5,
+          "action_id": 1273,
+          "HIGH_LEVERAGE": true,
+          "delta_percent": -33.07605572932106,
+          "proof_sha256": "f8530baff8ff7bbf9626be3625f283c7c58f6b2b26a1169ddc3f2166f6d8e566"
+        }
+      ],
+      "reason": "Exact same-parent fork and action logs matched; all continuation proofs independently reverified; frontier positions recovered from complete baseline initial FIFO dequeue prefix",
+      "full_canonical_snapshot_available": false,
+      "partial_fields": [
+        "activity",
+        "semantic_heap_rank",
+        "positions_of_processed_antecedents"
+      ],
+      "recovered_pending_literals": [
+        -454,
+        -67,
+        -22,
+        -163,
+        -94,
+        -58,
+        -425,
+        -410,
+        -356,
+        390,
+        471
+      ],
+      "evidence_hashes": {
+        "results/fixed_state_action_surface/frozen_state.json": "10b96076ab96262cbd300b3374359b1cdae1aa8b4cf66e96fedd81afe527be29",
+        "results/fixed_state_action_surface/runs/opportunities.jsonl": "443e90a6347e2faedc37f4bea333d90efd131cb5de38b3f934fbddc1f644639d",
+        "results/fixed_state_action_surface/runs/BASELINE.result.json": "54c19d27cb177a9303d3c4884cf3824cb83d72c4e489faaa39923ad364bccc60"
+      }
+    },
+    {
+      "state_id": "HIST_T8_S1",
+      "target": "T8",
+      "state_identity": "15240343236332109417",
+      "identity_scope": "same-parent OS-fork experimental state only; not cross-run canonical",
+      "HIGH_actions": 0,
+      "included": false,
+      "actions": [],
+      "reason": "Audited summary has no >=10% action; not a historical discovery positive"
+    },
+    {
+      "state_id": "HIST_T8_S2",
+      "target": "T8",
+      "state_identity": "784106404581339534",
+      "identity_scope": "same-parent OS-fork experimental state only; not cross-run canonical",
+      "HIGH_actions": 0,
+      "included": false,
+      "actions": [],
+      "reason": "Audited summary has no >=10% action; not a historical discovery positive"
+    },
+    {
+      "state_id": "HIST_T8_S3",
+      "target": "T8",
+      "state_identity": "13458786772311275427",
+      "identity_scope": "same-parent OS-fork experimental state only; not cross-run canonical",
+      "HIGH_actions": 0,
+      "included": false,
+      "actions": [],
+      "reason": "Audited summary has no >=10% action; not a historical discovery positive"
+    },
+    {
+      "state_id": "HIST_T8_S4",
+      "target": "T8",
+      "state_identity": "2166125583836216401",
+      "identity_scope": "same-parent OS-fork experimental state only; not cross-run canonical",
+      "HIGH_actions": 0,
+      "included": false,
+      "actions": [],
+      "reason": "Audited summary has no >=10% action; not a historical discovery positive"
+    },
+    {
+      "state_id": "HIST_T8_S5",
+      "target": "T8",
+      "state_identity": "13866032343213679985",
+      "identity_scope": "same-parent OS-fork experimental state only; not cross-run canonical",
+      "HIGH_actions": 1,
+      "included": true,
+      "actions": [
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T8_S5",
+          "action_rank": 1,
+          "action_id": 381,
+          "HIGH_LEVERAGE": false,
+          "delta_percent": 0.0,
+          "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T8_S5",
+          "action_rank": 2,
+          "action_id": 1014,
+          "HIGH_LEVERAGE": false,
+          "delta_percent": 0.0,
+          "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T8_S5",
+          "action_rank": 3,
+          "action_id": 1734,
+          "HIGH_LEVERAGE": false,
+          "delta_percent": 0.0,
+          "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T8_S5",
+          "action_rank": 4,
+          "action_id": 1736,
+          "HIGH_LEVERAGE": true,
+          "delta_percent": 26.26667456084819,
+          "proof_sha256": "719a3c493292163e9d1ebdb5c8748c744be29c4789d96b2460d7e106eaa0bb4b"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T8_S5",
+          "action_rank": 5,
+          "action_id": 2419,
+          "HIGH_LEVERAGE": false,
+          "delta_percent": 0.0,
+          "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20"
+        },
+        {
+          "dataset": "HISTORICAL_DISCOVERY_POSITIVES",
+          "state_id": "HIST_T8_S5",
+          "action_rank": 6,
+          "action_id": 2575,
+          "HIGH_LEVERAGE": false,
+          "delta_percent": 0.0,
+          "proof_sha256": "8615622e9e98ca63d870fd59c24d052e40ee6bad58731689652caa2cc5a81a20"
+        }
+      ],
+      "reason": "Exact same-parent fork and action logs matched; all continuation proofs independently reverified; frontier positions recovered from complete baseline initial FIFO dequeue prefix",
+      "full_canonical_snapshot_available": false,
+      "partial_fields": [
+        "activity",
+        "semantic_heap_rank",
+        "positions_of_processed_antecedents"
+      ],
+      "recovered_pending_literals": [
+        -57,
+        -412,
+        -325,
+        -524,
+        -131,
+        -71,
+        -29,
+        283
+      ],
+      "evidence_hashes": {
+        "results/multi_state_action_surface/S5/frozen_state.json": "e5e781451674bb4ec8fb1c3ea2e485087e9741bd345a67a6fbab6780356378ce",
+        "results/multi_state_action_surface/S5/runs/opportunities.jsonl": "c60e43c67c9ffffb023d3a11ae53a9fac2d572e0ee11296b7834c14b8f239c13",
+        "results/multi_state_action_surface/S5/runs/BASELINE.result.json": "8f7df3f895426eea11481f16e6bf41750d1c335fa8edd7e2730f50e7c7ebadad"
+      }
+    },
+    {
+      "state_id": "GOLD_ORIGINAL_CRITICAL",
+      "target": "not treated as T8/T10 original CNF",
+      "included": false,
+      "reason": "Original early-prop and L2 pre-snapshots align, but BEFORE_PROP_BASELINE has no matched pre-snapshot and uses REMOVE@655. Cannot align the baseline effect to a common exact opportunity snapshot without additional historical reconstruction. Retain as mechanistic context, not discovery feature/label row.",
+      "evidence": [
+        "results/original_clause_early_prop/event_audit.json",
+        "results/original_clause_early_prop/ORIGINAL_EARLY_PROP/local.TARGET_PRE.snapshot.json"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source": "temporal_v1",
+      "reason": "COHORT_V1_INVALID_FOR_SENSITIVITY_LABELING"
+    },
+    {
+      "source": "temporal_v2",
+      "reason": "INVALID_FOR_SCIENTIFIC_PROMOTION"
+    },
+    {
+      "source": "old_qualification",
+      "reason": "invalid cross-run identity"
+    },
+    {
+      "source": "qualification_v2/v3",
+      "reason": "infrastructure data excluded; not needed for mechanistic discovery"
+    }
+  ],
+  "no_new_native_runs": true,
+  "only_proof_checker_runs": 13
+}
