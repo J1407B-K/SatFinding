@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "phase": "development_shortcut_gate",
+  "formal_routes": ["BASELINE", "BLIND", "SUPPORT-ONLY", "REPLAY", "REPLAY+REPAIR"],
+  "levels": ["L0", "L1", "L2_05", "L2_15"],
+  "formal_row_fields": {
+    "identity": ["case_id", "input_sha256", "history_sha256", "route", "budget", "status", "stop_reason"],
+    "historical": ["raw_nodes", "sliced_leaves", "sliced_inferences", "sliced_edges", "historical_search_attempts"],
+    "mapping": ["mapped_nodes", "unmapped_nodes", "present_leaves", "missing_leaves"],
+    "reuse": ["initial_direct_nodes", "initial_broken_nodes", "repaired_nodes", "replay_after_repair_nodes", "remaining_gaps", "replay_ratio", "reuse_ratio"],
+    "repair": ["repair_attempts", "repair_successes", "repair_success_rate"],
+    "search": ["new_resolution_search_attempts", "new_outcomes", "duplicate_outcomes", "tautology_outcomes", "literal_visits", "new_generated_nodes_all", "new_generated_nodes_in_certificate"],
+    "checking": ["unique_checked_nodes", "total_checked_nodes", "checker_status", "checker_seconds"],
+    "time": ["retrieval_seconds", "mapping_seconds", "replay_seconds", "repair_search_seconds", "encoding_seconds", "end_to_end_seconds", "baseline_search_seconds", "baseline_solving_seconds"],
+    "certificate": ["certificate_bytes", "nodes", "edges", "literals", "sha256"],
+    "support": ["certificate_input_clauses", "search_touched_input_clauses", "mapping_scanned_input_clauses", "current_cnf_clauses", "certificate_touched_ratio", "search_touched_ratio", "mapping_scanned_ratio"],
+    "comparison": ["search_attempts_saved", "search_saving_fraction", "comparison_censored"]
+  },
+  "semantics": {
+    "unmeasured": "null, never zero; formal rows do not exist until formal routes run",
+    "repair_attempts": "number of bounded local search invocations, distinct from Resolution attempts",
+    "replay_ratio": "initial direct inference nodes / historical sliced inference nodes",
+    "reuse_ratio": "historical inferences using old parents and pivot in final certificate / historical sliced inference nodes",
+    "search_attempts_saved": "BLIND attempts minus history attempts; only exact if both complete",
+    "sharing": "count unique DAG nodes, never tree-unroll sharing",
+    "trace_event": ["left_id", "right_id", "signed_pivot", "new|duplicate|tautology", "result_id_or_null"],
+    "trace_order": "input nodes first; every new event appends exactly one Resolution Step; all events charged",
+    "gate_certificate": "ordinary Certificate on current normalized CNF, no historical premises"
+  },
+  "gate_methods": ["UP", "BVE", "CADICAL_PREPROCESS", "CADICAL_SOLVE"],
+  "gate_required_fields": ["case_id", "input_sha256", "method", "status", "checker", "process_seconds"],
+  "gate_resolution_fields": ["budget", "trace", "full_certificate", "certificate", "search_seconds", "checker_seconds", "end_to_end_seconds"],
+  "gate_budget_fields": ["limit", "attempts", "outcomes", "literal_visits"]
+}
