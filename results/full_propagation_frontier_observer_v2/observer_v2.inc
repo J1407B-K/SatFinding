@@ -13,6 +13,7 @@ std::string output_dir,request_path;
 bool reached=false,action_verified=false;
 static std::map<CRef,HU> hc_ids;
 static HU hc_ids_next=0,hc_enqueues=0,watchers=0,dequeues=0,boundary=0;
+static bool frontier_on=false; static std::ofstream frontier_trace; static void frontier_init();
 HU temporal_samples=0;
 static unsigned collected=0, window_index=0;
 static std::vector<std::pair<HU,HU>> collection_windows;
@@ -61,5 +62,5 @@ std::string Solver::canonical_heuristic(){
 }
 void Solver::hc_boundary(){if(last_starts!=(HU)starts){last_starts=starts;restart_conflict=conflicts;}hc_observe();}
 void Solver::hc_observe(){ return; }
-static bool frontier_on=false; static std::ofstream frontier_trace;
+
 static void frontier_init(){ if(!frontier_on){const char* e=getenv("FRONTIER_OBSERVER"); if(e&&std::string(e)=="on"){frontier_on=true; frontier_trace.open((output_dir+"/trace.jsonl").c_str());}}}
