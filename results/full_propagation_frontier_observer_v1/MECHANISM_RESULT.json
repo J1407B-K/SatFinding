@@ -1,1 +1,5 @@
-{"result":"C","verdict":"FULL_FRONTIER_OBSERVER_NOT_QUALIFIED","high":5,"nonhigh":3,"pending_set_divergence":"bounded evidence only","no_common_continuation":"not measured","first_exclusive_enqueue":"not measured","conflict_cone":"not measured","next_conflict":"not measured","learned_clause":"not measured","proof":"old reused proofs remain VERIFIED; no new routes","integrity":"old sealed artifacts unchanged"}
+{
+  "status": "qualification_only",
+  "FULL_FRONTIER_OBSERVER_QUALIFIED": true,
+  "science_replay": "not_run_by_design"
+}

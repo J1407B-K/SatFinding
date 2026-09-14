@@ -1,0 +1,1 @@
+{"implementation":"native Solver::propagate processing boundary observer","read_only":true,"pending_definition":"trail[qhead:]","canonical_reason":"sorted clause literals or decision sentinel","raw_identity":false,"conflict_analysis_hooks":["conflict_clause","conflict_analysis","learned_clause","backtrack"],"status":"IMPLEMENTED_IN_ISOLATED_BUILD"}
