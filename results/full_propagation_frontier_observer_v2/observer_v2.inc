@@ -60,46 +60,4 @@ std::string Solver::canonical_heuristic(){
  return o.str();
 }
 void Solver::hc_boundary(){if(last_starts!=(HU)starts){last_starts=starts;restart_conflict=conflicts;}hc_observe();}
-void Solver::hc_observe(){
- ++boundary;
-#ifdef REPLAY
- if(reached)return;
-#endif
-#ifdef COLLECTOR
- static bool plan_loaded=false;
- if(!plan_loaded){std::ifstream f(request_path);unsigned n;f>>action_budget>>requested>>minimum_legal>>n;if(!f||action_budget<1||action_budget>6||!requested||!minimum_legal||n<requested)throw std::runtime_error("COLLECTION_PLAN");HU previous=0;for(unsigned i=0;i<n;i++){HU lo,hi;f>>lo>>hi;if(!f||lo>hi||(i&&lo<=previous))throw std::runtime_error("COLLECTION_WINDOWS");collection_windows.push_back({lo,hi});previous=hi;}std::string extra;if(f>>extra)throw std::runtime_error("PLAN_TRAILING_INPUT");collection_root=output_dir;plan_loaded=true;}
- while(window_index<collection_windows.size()&&conflicts>collection_windows[window_index].second)++window_index;
- if(window_index==collection_windows.size())collection_finish("WINDOWS_EXHAUSTED");
- if(conflicts<collection_windows[window_index].first)return;
- struct Action{HU id;CRef cr;Lit p;};std::vector<Action> actions;
- auto scan=[&](const vec<CRef>&db){for(int i=0;i<db.size();i++){CRef cr=db[i];const Clause&c=ca[cr];if(c.mark())continue;bool sat=false;int n=0;Lit p=lit_Undef;for(int j=0;j<c.size();j++){sat|=value(c[j])==l_True;if(value(c[j])==l_Undef){n++;p=c[j];}}if(!sat&&n==1&&(c.size()==2||(c.size()>2&&c[0]==p)))actions.push_back({hc_ids.at(cr),cr,p});}};scan(clauses);scan(learnts);if(actions.size()<minimum_legal)return;
- std::sort(actions.begin(),actions.end(),[](const Action&a,const Action&b){return a.id<b.id;});
-#else
- static bool loaded=false;static HU want=0,wc=0,wd=0;static int wl=0,wt=0,wq=0;static std::string lh,hh;static HU aid=0;static int implied=0,source=0;static std::vector<int> frozen;
- if(!loaded){std::ifstream f(request_path);int n;f>>want>>wc>>wd>>wl>>wt>>wq>>lh>>hh>>aid>>implied>>source>>n;if(!f||n<0)throw std::runtime_error("REQUEST_PARSE");for(int i=0,x;i<n;i++){f>>x;frozen.push_back(x);}if(!f)throw std::runtime_error("CLAUSE_PARSE");loaded=true;}
- if(boundary<want)return;if(boundary!=want||conflicts!=wc||decisions!=wd||decisionLevel()!=wl||trail.size()!=wt||qhead!=wq)throw std::runtime_error("REPLAY_CHECKPOINT_MISMATCH");
-#endif
-#ifdef COLLECTOR
- output_dir=collection_root+"/S"+std::to_string(collected+1);
- if(mkdir(output_dir.c_str(),0755)!=0)throw std::runtime_error("CHECKPOINT_DIRECTORY_EXISTS");
-#endif
- std::string logical=canonical_logical(),heuristic=canonical_heuristic();
- write(output_dir+"/logical.txt",logical);write(output_dir+"/heuristic.txt",heuristic);
-#ifdef REPLAY
- if(digest(logical)!=lh||digest(heuristic)!=hh)throw std::runtime_error("REPLAY_CANONICAL_MISMATCH");
-#endif
-#ifdef REPLAY
- reached=true;
-#endif
- std::ostringstream st;st<<"{\"boundary\":"<<boundary<<",\"conflicts\":"<<conflicts<<",\"decisions\":"<<decisions<<",\"level\":"<<decisionLevel()<<",\"trail_length\":"<<trail.size()<<",\"qhead\":"<<qhead<<",\"canonical_logical_state_hash\":\""<<digest(logical)<<"\",\"canonical_heuristic_state_hash\":\""<<digest(heuristic)<<"\"}";write(output_dir+"/checkpoint.json",st.str());
- write(output_dir+"/prefix_counters.json",scientific_counters());
-#ifdef COLLECTOR
- int take=std::min((unsigned)actions.size(),action_budget);
- std::ostringstream a;a<<"{\"legal_count\":"<<actions.size()<<",\"K\":"<<action_budget<<",\"selected_count\":"<<take<<",\"selected\":[";for(int i=0;i<take;i++){auto act=actions[i];const Clause&c=ca[act.cr];if(i)a<<',';a<<"{\"rank\":"<<i+1<<",\"id\":"<<act.id<<",\"literal\":"<<lit(act.p)<<",\"source\":\""<<(c.learnt()?"learned":"original")<<"\",\"unit_layout_verified\":true,\"unassigned_count\":1,\"true_count\":0,\"clause\":[";for(int j=0;j<c.size();j++)a<<(j?",":"")<<lit(c[j]);a<<"]}";}a<<"],\"eligible_ids\":[";for(size_t i=0;i<actions.size();i++)a<<(i?",":"")<<actions[i].id;a<<"]}";write(output_dir+"/actions.json",a.str());
- std::ostringstream t;t<<"{\"logical_samples\":[";HU n=std::min(pos,128ULL);for(HU i=0;i<n;i++){const Sample&s=ring[(pos-n+i)%128];if(i)t<<',';t<<"{\"conflict_index\":"<<s.conflict<<",\"learned_length\":"<<s.length<<",\"lbd\":"<<s.lbd<<",\"backtrack_level\":"<<s.bt<<",\"backjump_depth\":"<<s.jump<<",\"decisions_delta\":"<<s.dec<<",\"dequeues_delta\":"<<s.deq<<",\"analysis_ops_delta\":"<<s.ops<<",\"watcher_visits_delta\":"<<s.watch<<",\"enqueues_delta\":"<<s.enq<<",\"restart_epoch\":"<<s.restart<<",\"conflicts_since_restart\":"<<s.since<<"}";}t<<"]}";write(output_dir+"/temporal_raw.json",t.str());
- ++collected;++window_index;
- if(collected==requested)collection_finish("REQUEST_SATISFIED");
-#else
- if(aid){CRef cr=CRef_Undef;for(auto e:hc_ids)if(e.second==aid){cr=e.first;break;}if(cr==CRef_Undef)throw std::runtime_error("CLAUSE_ID_MISSING");const Clause&c=ca[cr];if(c.mark()||c.learnt()!=source||c.size()!=(int)frozen.size())throw std::runtime_error("CLAUSE_METADATA");std::vector<int> actual;for(int j=0;j<c.size();j++)actual.push_back(lit(c[j]));std::sort(actual.begin(),actual.end());std::sort(frozen.begin(),frozen.end());if(actual!=frozen)throw std::runtime_error("CLAUSE_CONTENT");Lit p=mkLit(abs(implied)-1,implied<0);int n=0;for(int j=0;j<c.size();j++){if(c[j]==p)n++;else if(value(c[j])!=l_False)throw std::runtime_error("NOT_UNIT");}if(n!=1||value(p)!=l_Undef||!(c.size()==2||(c.size()>2&&c[0]==p)))throw std::runtime_error("ILLEGAL_IMPLICATION");uncheckedEnqueue(p,cr);action_verified=true;}
-#endif
-}
+void Solver::hc_observe(){ return; }
