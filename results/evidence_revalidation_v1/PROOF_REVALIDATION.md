@@ -1,3 +1,3 @@
 # Fresh proof revalidation
 
-Proof checker was invoked on re-executable archived branch-displacement proofs with available CNF inputs. Results are recorded in `PROOF_REVALIDATION.json`; routes without current input bindings are omitted rather than treated as verified.
+The path traversal bug was fixed by explicit ancestor search and fail-closed status. 139 archived proof files were enumerated; 0 were re-executable because corresponding CNF inputs are absent from the current archive. No old checker logs were counted as fresh verification.
