@@ -1,0 +1,11 @@
+import json,csv,glob
+from pathlib import Path
+O=Path('results/temporal_state_sensitivity'); P=Path('results/prospective_micro_rollout')
+fields=['conflict_index','decisions','propagations','dequeues','learned_length','lbd','backtrack_level','backjump','analysis_ops','watcher_visits','restart_info','activity','heap','latent_action_count']
+feas={f:'UNAVAILABLE' for f in fields}; feas.update({'conflict_index':'AVAILABLE','decisions':'AVAILABLE','latent_action_count':'PARTIAL'})
+json.dump({'fields':feas,'windows':{'SHORT':8,'MID':32,'LONG':128},'status':'TEMPORAL_DATA_INSUFFICIENT','reason':'Existing states snapshots provide cumulative prefix counters only; traces contain action horizon records, not reliable preceding conflict history.'},open(O/'temporal_data_feasibility.json','w'),indent=2)
+json.dump({'windows':{'SHORT':8,'MID':32,'LONG':128},'features':[],'frozen_before_labels':True},open(O/'frozen_temporal_features.json','w'),indent=2)
+for n,h in [('temporal_state_feature_table.csv','state_id,target,label,status\n'),('temporal_feature_separation.csv','feature,status\n'),('sensitive_regime_summary.csv','state_id,status\n')]: (O/n).write_text(h)
+json.dump({'static_available':True,'temporal_available':False,'conclusion':'TEMPORAL_DATA_INSUFFICIENT'},open(O/'static_vs_temporal.json','w'),indent=2)
+json.dump({'status':'TEMPORAL_DATA_INSUFFICIENT','within_target_analysis':'UNAVAILABLE'},open(O/'within_target_temporal_analysis.json','w'),indent=2)
+(O/'TEMPORAL_STATE_SENSITIVITY.md').write_text('# Temporal State Sensitivity\n\nPhase 0 finds the existing artifacts insufficient for fixed SHORT/MID/LONG conflict windows. State snapshots contain cumulative counters, while traces expose intervention horizons rather than the preceding conflict-by-conflict learning, LBD, backjump, watcher, and restart series. Temporal features are therefore marked UNAVAILABLE/PARTIAL and no labels were used to tune features.\n\nDecision: **TEMPORAL_DATA_INSUFFICIENT**. No solver runs were added. The next step is a minimal instrumentation protocol recording the preceding 8/32/128 conflict summaries for each selected state, followed by a fresh frozen analysis. Do not fit a classifier or proceed to state gating before that data exists.\n')
