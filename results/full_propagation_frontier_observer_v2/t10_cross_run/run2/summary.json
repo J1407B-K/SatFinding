@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "status": "UNSAT",
+  "conflicts": 9783,
+  "decisions": 11441,
+  "propagations": 770564,
+  "trace_events": 1319660
+}
