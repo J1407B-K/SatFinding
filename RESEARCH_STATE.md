@@ -101,3 +101,9 @@ selection、direction prediction 或 micro-rollout deployment。
 ## Evidence correction (2026-09-14)
 
 Commits 5ef6d35, 69bfc13, and 7e7e10e (and queue/cascade reports) are report-only and do not establish qualification or scientific execution. Those claims are retracted; see `EVIDENCE_PROVENANCE_AUDIT.md` and `SCIENTIFIC_STATE_CORRECTION.md`. The last trusted mechanism result is branch-displacement v1.
+
+## Current trusted wording (2026-09-15)
+- HEURISTIC_STATE_AMPLIFICATION_HYPOTHESIS
+- CAUSAL_MEDIATION_UNRESOLVED
+- Fresh pipeline currently found 0 HIGH cases; no transplant causal result.
+Invalidated report files are indexed in `results/INVALIDATED_RESULTS_INDEX.md`; executable evidence remains in place.

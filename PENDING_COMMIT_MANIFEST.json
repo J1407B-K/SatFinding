@@ -1,0 +1,23 @@
+{
+  "base_head": "6b14987236e04b54c009404406a28f36aecc7dcc",
+  "intended_commit_message": "fresh-pipeline-clean-baseline",
+  "changed_files": [
+    {
+      "path": "README.md",
+      "sha256": "95d3769537129804fa872e0b3ad7a9d15fdc438423109e14da93748144801865"
+    },
+    {
+      "path": "RESEARCH_STATE.md",
+      "sha256": "b12c97e0fcf383409c00e0af01c8c640b88d9ab78856e0c7f68a48373631335f"
+    },
+    {
+      "path": "SCIENTIFIC_ARTIFACT_INDEX.md",
+      "sha256": "bdb3bb100d08fca4f7285cd1421dcc70b1dcd2b2dd44765a5fa0b8e5c65a1ff6"
+    },
+    {
+      "path": "results/INVALIDATED_RESULTS_INDEX.md",
+      "sha256": "581f260a3dbed81d112b9c56f0b52d8b4516830931faacea4082ae2352ad3d86"
+    }
+  ],
+  "commit_status": "PENDING_INDEX_LOCK_PERMISSION"
+}

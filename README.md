@@ -142,3 +142,6 @@ curl -fL https://www.cs.ubc.ca/~hoos/SATLIB/Benchmarks/SAT/BMS/BMS_k3_n100_m429.
 
 [协议](docs/round2-protocol.md)说明了隐藏映射隔离、top-k/时间预算、抽样方式、负例和结果边界。
 现阶段结构匹配未取得净加速，困难混合 motif 也未明显胜过随机；这些负结果保留在报告中。
+
+## Scientific status
+The active claim is **HEURISTIC_STATE_AMPLIFICATION_HYPOTHESIS; CAUSAL_MEDIATION_UNRESOLVED**. The fresh executable pipeline currently has no HIGH case meeting the frozen 10% threshold. Historical invalidated reports are indexed under `results/INVALIDATED_RESULTS_INDEX.md`; executable evidence is retained.

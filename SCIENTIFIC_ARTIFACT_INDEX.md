@@ -21,3 +21,11 @@ sealed files 做格式化。
 
 正式结论只来自正式 manifests 绑定的数据。v1/v2 invalid cohorts、old identity-invalid qualification
 packages 与 qualification labels 不参与 v3 scientific claims。
+
+## Active trusted results
+- Observer v2 qualification evidence and provenance audits.
+- Branch displacement scoped result.
+- Propagation availability: `PROPAGATION_AVAILABILITY_NOT_PRIMARY_MECHANISM`.
+- Fixed route recovery: `FIXED_CAUSAL_COHORT_NOT_RECOVERABLE`.
+- Current heuristic wording: `HEURISTIC_STATE_AMPLIFICATION_HYPOTHESIS`; `CAUSAL_MEDIATION_UNRESOLVED`.
+- Invalidated reports: `results/INVALIDATED_RESULTS_INDEX.md`.
