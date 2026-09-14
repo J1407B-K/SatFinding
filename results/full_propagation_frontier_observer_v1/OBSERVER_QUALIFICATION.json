@@ -1,0 +1,1 @@
+{"FULL_FRONTIER_OBSERVER_QUALIFIED":false,"status":"NOT_RUN","reason":"Existing sealed observer does not expose canonical full pending frontier and conflict-analysis snapshots; implementing qualification requires native harness changes and reruns."}
