@@ -13,7 +13,7 @@ std::string output_dir,request_path;
 bool reached=false,action_verified=false;
 static std::map<CRef,HU> hc_ids;
 static HU hc_ids_next=0,hc_enqueues=0,watchers=0,dequeues=0,boundary=0;
-static bool frontier_on=false; static std::ofstream frontier_trace; static void frontier_init();
+static bool frontier_on=false; static std::ofstream frontier_trace; static void frontier_init(); static unsigned long long analysis_id=0;
 HU temporal_samples=0;
 static unsigned collected=0, window_index=0;
 static std::vector<std::pair<HU,HU>> collection_windows;
@@ -38,8 +38,8 @@ static void pm_watch(){++watchers;}
 static void pm_visit(int){}
 void Solver::pm_dequeue(){++dequeues; frontier_init(); if(frontier_on) frontier_trace<<"{\"type\":\"propagation_frontier\",\"qhead\":"<<qhead<<",\"trail_length\":"<<trail.size()<<",\"pending\":"<<trail.size()-qhead<<"}\n";}
 void Solver::pm_conflict_hook(CRef){++temporal_samples;conflict_level=decisionLevel(); if(frontier_on) frontier_trace<<"{\"type\":\"conflict_detected\",\"conflicts\":"<<conflicts<<"}\n";}
-void Solver::pm_analysis_hook(const vec<Lit>&l,int bt,unsigned glue){ if(frontier_on) frontier_trace<<"{\"type\":\"analysis\"}\n";pending.length=l.size();pending.lbd=glue;pending.level=conflict_level;pending.bt=bt;pending.jump=conflict_level-bt;}
-void Solver::pm_backtrack_hook(){ if(frontier_on) frontier_trace<<"{\"type\":\"backtrack_complete\"}\n";pending.conflict=conflicts;pending.dec=decisions-prev_dec;pending.deq=dequeues-prev_deq;pending.ops=sf_analysis-prev_ops;pending.watch=watchers-prev_watch;pending.enq=hc_enqueues-prev_enq;pending.restart=starts;pending.since=conflicts-restart_conflict;ring[pos++%128]=pending;prev_dec=decisions;prev_deq=dequeues;prev_ops=sf_analysis;prev_watch=watchers;prev_enq=hc_enqueues;}
+void Solver::pm_analysis_hook(const vec<Lit>&l,int bt,unsigned glue){ ++analysis_id; if(frontier_on){ frontier_trace<<"{\"type\":\"analysis_begin\",\"analysis_id\":"<<analysis_id<<"}\n"; frontier_trace<<"{\"type\":\"first_uip\",\"analysis_id\":"<<analysis_id<<",\"literal\":"<<lit(~l[0])<<"}\n"; frontier_trace<<"{\"type\":\"learned_clause\",\"analysis_id\":"<<analysis_id<<",\"length\":"<<l.size()<<"}\n"; }pending.length=l.size();pending.lbd=glue;pending.level=conflict_level;pending.bt=bt;pending.jump=conflict_level-bt;}
+void Solver::pm_backtrack_hook(){ if(frontier_on) frontier_trace<<"{\"type\":\"backtrack_complete\",\"analysis_id\":"<<analysis_id<<"}\n";pending.conflict=conflicts;pending.dec=decisions-prev_dec;pending.deq=dequeues-prev_deq;pending.ops=sf_analysis-prev_ops;pending.watch=watchers-prev_watch;pending.enq=hc_enqueues-prev_enq;pending.restart=starts;pending.since=conflicts-restart_conflict;ring[pos++%128]=pending;prev_dec=decisions;prev_deq=dequeues;prev_ops=sf_analysis;prev_watch=watchers;prev_enq=hc_enqueues;}
 std::string Solver::canonical_logical(){
  std::ostringstream o;o.imbue(std::locale::classic());o<<"logical-v2\n";
  o<<"counters "<<conflicts<<' '<<decisions<<' '<<propagations<<' '<<hc_enqueues<<' '<<decisionLevel()<<' '<<trail.size()<<' '<<qhead<<'\n';
