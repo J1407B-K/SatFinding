@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "status": "UNSAT",
+  "conflicts": 6087,
+  "decisions": 7162,
+  "propagations": 476510,
+  "replay_controller_initialized": false,
+  "checkpoint_requests_seen": 0,
+  "actions_applied": 0,
+  "trace_events": 823550
+}
