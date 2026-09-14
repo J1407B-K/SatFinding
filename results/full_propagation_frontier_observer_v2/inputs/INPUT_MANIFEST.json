@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "target": "T8",
+      "path": "results/full_propagation_frontier_observer_v2/inputs/T8_qualification.cnf",
+      "sha256": "1b3c1afec3cad451a7666198e4dac5e55d7425cd7367396ca106632acd3ec167",
+      "size": 30643,
+      "source_type": "ARCHIVED_FILE",
+      "source_path": "results/full_propagation_frontier_observer_v2/inputs/T8_qualification.cnf"
+    },
+    {
+      "target": "T10",
+      "path": "results/full_propagation_frontier_observer_v2/inputs/T10_qualification.cnf",
+      "sha256": "bc797b9875dae13dcb18e0c1deb4502cb62589ae901bda926a19e4d20db3edbb",
+      "size": 30643,
+      "source_type": "ARCHIVED_FILE",
+      "source_path": "results/full_propagation_frontier_observer_v2/inputs/T10_qualification.cnf"
+    }
+  ]
+}
