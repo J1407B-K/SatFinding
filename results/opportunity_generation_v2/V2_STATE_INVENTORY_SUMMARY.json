@@ -1,0 +1,55 @@
+{
+  "states": [
+    {
+      "state": "S1",
+      "conflicts": 100,
+      "eligible_actions": 7,
+      "timed_actions": 7,
+      "buckets": {
+        "BUCKET_1": 7
+      },
+      "selected": 1
+    },
+    {
+      "state": "S2",
+      "conflicts": 200,
+      "eligible_actions": 6,
+      "timed_actions": 6,
+      "buckets": {
+        "BUCKET_1": 6
+      },
+      "selected": 1
+    },
+    {
+      "state": "S3",
+      "conflicts": 300,
+      "eligible_actions": 5,
+      "timed_actions": 5,
+      "buckets": {
+        "BUCKET_1": 5
+      },
+      "selected": 1
+    },
+    {
+      "state": "S4",
+      "conflicts": 400,
+      "eligible_actions": 5,
+      "timed_actions": 5,
+      "buckets": {
+        "BUCKET_1": 5
+      },
+      "selected": 1
+    },
+    {
+      "state": "S5",
+      "conflicts": 500,
+      "eligible_actions": 5,
+      "timed_actions": 5,
+      "buckets": {
+        "BUCKET_1": 5
+      },
+      "selected": 1
+    }
+  ],
+  "scientific_routes_consumed": 0
+}

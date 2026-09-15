@@ -1,0 +1,127 @@
+{
+  "state_id": "S3",
+  "checkpoint": {
+    "boundary": 42478,
+    "conflicts": 300,
+    "decisions": 374,
+    "level": 12,
+    "trail_length": 74,
+    "qhead": 73,
+    "canonical_logical_state_hash": "db510828465b10e4ece4ab9e9634cbfcaf61f1a32b50b6dd35451671ac38aa13",
+    "canonical_heuristic_state_hash": "0a6f027be560958b56fa0ba32f1afdba22a886b55a27426e8f68b7c454c530b3"
+  },
+  "all_legal_actions_count": 5,
+  "actions": [
+    {
+      "rank": 1,
+      "id": 73,
+      "literal": -584,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -590,
+        -584
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -590,
+        -584
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 2,
+      "id": 74,
+      "literal": -461,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -461,
+        -590
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -590,
+        -461
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 3,
+      "id": 75,
+      "literal": -338,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -338,
+        -590
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -590,
+        -338
+      ],
+      "selected_for_execution": true
+    },
+    {
+      "rank": 4,
+      "id": 77,
+      "literal": -236,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -236,
+        -590
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -590,
+        -236
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 5,
+      "id": 78,
+      "literal": -56,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -56,
+        -590
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -590,
+        -56
+      ],
+      "selected_for_execution": false
+    }
+  ],
+  "baseline_timing_source": "6267f98c3f5015fe59241b06d81395f1d6df862de2fbb632bb086feb616d281f"
+}

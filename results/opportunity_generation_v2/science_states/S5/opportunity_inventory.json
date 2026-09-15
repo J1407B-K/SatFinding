@@ -1,0 +1,127 @@
+{
+  "state_id": "S5",
+  "checkpoint": {
+    "boundary": 71981,
+    "conflicts": 500,
+    "decisions": 631,
+    "level": 9,
+    "trail_length": 145,
+    "qhead": 144,
+    "canonical_logical_state_hash": "44beca55a69a63c2924d1a06317ed7859b949f9a9040b099336c28f7b91e1716",
+    "canonical_heuristic_state_hash": "15589510b1d66f2c09d2447ea2849e91fa8d0f875de041bc43f8410661d7b29d"
+  },
+  "all_legal_actions_count": 5,
+  "actions": [
+    {
+      "rank": 1,
+      "id": 150,
+      "literal": -579,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -138,
+        -579
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -579,
+        -138
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 2,
+      "id": 1418,
+      "literal": -360,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -360,
+        -138
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -360,
+        -138
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 3,
+      "id": 2167,
+      "literal": -137,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -137,
+        -138
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -138,
+        -137
+      ],
+      "selected_for_execution": true
+    },
+    {
+      "rank": 4,
+      "id": 2169,
+      "literal": -78,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -138,
+        -78
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -138,
+        -78
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 5,
+      "id": 2170,
+      "literal": -15,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -15,
+        -138
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -138,
+        -15
+      ],
+      "selected_for_execution": false
+    }
+  ],
+  "baseline_timing_source": "02449decca0db96721f6b660c19a0a9715267a1ed2cc221966d999b55654cf41"
+}

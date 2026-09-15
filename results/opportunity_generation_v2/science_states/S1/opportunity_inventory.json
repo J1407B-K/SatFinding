@@ -1,0 +1,171 @@
+{
+  "state_id": "S1",
+  "checkpoint": {
+    "boundary": 13739,
+    "conflicts": 100,
+    "decisions": 136,
+    "level": 11,
+    "trail_length": 74,
+    "qhead": 73,
+    "canonical_logical_state_hash": "8074c8ae2a224c3b43032a75295d9456c18e55899f2637b2ca86c87684057531",
+    "canonical_heuristic_state_hash": "82b92a74407a318e60d8096581520bab7f3b2a32d37525782cc7d1932580372a"
+  },
+  "all_legal_actions_count": 7,
+  "actions": [
+    {
+      "rank": 1,
+      "id": 686,
+      "literal": -495,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -493,
+        -495
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -495,
+        -493
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 2,
+      "id": 693,
+      "literal": -494,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -493,
+        -494
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -494,
+        -493
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 3,
+      "id": 700,
+      "literal": -484,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -484,
+        -493
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -493,
+        -484
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 4,
+      "id": 701,
+      "literal": -430,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -430,
+        -493
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -493,
+        -430
+      ],
+      "selected_for_execution": true
+    },
+    {
+      "rank": 5,
+      "id": 702,
+      "literal": -394,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -394,
+        -493
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -493,
+        -394
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 6,
+      "id": 703,
+      "literal": -181,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -181,
+        -493
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -493,
+        -181
+      ],
+      "selected_for_execution": false
+    },
+    {
+      "rank": 7,
+      "id": 704,
+      "literal": -163,
+      "source": "original",
+      "unit_layout_verified": true,
+      "unassigned_count": 1,
+      "true_count": 0,
+      "clause": [
+        -163,
+        -493
+      ],
+      "timing_bucket": "BUCKET_1",
+      "naturally_enqueued": true,
+      "native_enqueue_dequeue_delay": 1,
+      "native_enqueue_conflict_delay": 0,
+      "native_reason_clause": [
+        -493,
+        -163
+      ],
+      "selected_for_execution": false
+    }
+  ],
+  "baseline_timing_source": "ac2f7d5f930536bea654cd43bb62fcb1c9afec204a14283956794754ec4cf291"
+}
