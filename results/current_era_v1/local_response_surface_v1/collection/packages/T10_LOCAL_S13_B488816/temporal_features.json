@@ -1,0 +1,110 @@
+{
+  "availability": {
+    "long_128": true,
+    "mid_32": true,
+    "short_8": true
+  },
+  "feature_schema_sha256": "1a377831db49b523c8e0a0d4601d89e8133c5789896752731017329cffe975a7",
+  "features": {
+    "analysis_ops_per_conflict_mean_delta": {
+      "LONG": {
+        "mean": 39.2265625
+      },
+      "MID": {
+        "mean": 38.375
+      },
+      "SHORT": {
+        "mean": 42.5
+      },
+      "short_minus_mid": 4.125
+    },
+    "backjump_mean_slope_delta": {
+      "LONG": {
+        "mean": 1.140625,
+        "slope": -0.0003776780809375572
+      },
+      "MID": {
+        "mean": 1.03125,
+        "slope": -0.0005498533724340176
+      },
+      "SHORT": {
+        "mean": 1.0,
+        "slope": 0.0
+      },
+      "short_minus_mid": -0.03125
+    },
+    "conflicts_since_restart": 3204,
+    "decisions_per_conflict_mean_delta": {
+      "LONG": {
+        "mean": 1.1484375
+      },
+      "MID": {
+        "mean": 0.84375
+      },
+      "SHORT": {
+        "mean": 1.0
+      },
+      "short_minus_mid": 0.15625
+    },
+    "dequeues_per_conflict_mean_delta": {
+      "LONG": {
+        "mean": 136.046875
+      },
+      "MID": {
+        "mean": 127.875
+      },
+      "SHORT": {
+        "mean": 138.75
+      },
+      "short_minus_mid": 10.875
+    },
+    "lbd_mean_slope_variance_delta": {
+      "LONG": {
+        "mean": 6.5859375,
+        "slope": 0.004534998168833547,
+        "variance": 3.83636474609375
+      },
+      "MID": {
+        "mean": 6.59375,
+        "slope": -0.0874266862170088,
+        "variance": 3.7412109375
+      },
+      "SHORT": {
+        "mean": 5.75,
+        "slope": -0.14285714285714285,
+        "variance": 1.4375
+      },
+      "short_minus_mid": -0.84375
+    },
+    "learned_length_mean_slope_delta": {
+      "LONG": {
+        "mean": 17.09375,
+        "slope": 0.011095724226332173
+      },
+      "MID": {
+        "mean": 18.625,
+        "slope": -0.19941348973607037
+      },
+      "SHORT": {
+        "mean": 17.5,
+        "slope": 0.6428571428571429
+      },
+      "short_minus_mid": -1.125
+    },
+    "watcher_visits_per_conflict_mean_delta": {
+      "LONG": {
+        "mean": 929.1328125
+      },
+      "MID": {
+        "mean": 949.625
+      },
+      "SHORT": {
+        "mean": 1050.125
+      },
+      "short_minus_mid": 100.5
+    }
+  },
+  "protocol_sha256": "79bbc10b5f5b3254a1ff6286b8aff20694465e9fdfdeb508ec729e63011b3d9b",
+  "protocol_version": "1.1",
+  "raw_temporal_sha256": "7a9bd13b2687d469f840a2d87d763b40883a0a12921a3828b60648ba08e127c3"
+}

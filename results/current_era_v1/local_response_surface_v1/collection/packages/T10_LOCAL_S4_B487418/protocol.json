@@ -1,0 +1,15 @@
+{
+  "schema": "CURRENT_STEERING_DISCOVERY_V1",
+  "threshold_abs_delta_percent": 10.0,
+  "targets": [
+    "T8",
+    "T10",
+    "T13"
+  ],
+  "sampling": "outcome-blind first eligible per fixed conflict windows 3000-3599",
+  "requested_states_per_cnf": 6,
+  "actions": "full legal inventory; all selected actions executed",
+  "route_budget": 1000,
+  "state_ids": "CE_<CNF>_<ordinal>",
+  "legacy_labels_forbidden": true
+}

@@ -1,0 +1,1 @@
+{"schema":"EXACT_BOUNDARY_INFRASTRUCTURE_V1","definition":"one solver hc_observe boundary per uncheckedEnqueue, canonical state captured before next eligibility scan","trace_window":[-32,32],"scientific_window":[-16,16],"anchor_boundary":488045,"anchor_action":{"id":5633,"literal":27,"clause":[27,432,203,495,473,431]},"fail_closed":true}

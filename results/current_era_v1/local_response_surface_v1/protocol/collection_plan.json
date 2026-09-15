@@ -1,0 +1,86 @@
+{
+  "purpose": "LOCAL_RESPONSE_SURFACE_V1_COLLECTION",
+  "collections": [
+    {
+      "target": "T10_LOCAL",
+      "input": "results/current_era_v1/protocol/T10.cnf",
+      "input_sha256": "bc797b9875dae13dcb18e0c1deb4502cb62589ae901bda926a19e4d20db3edbb",
+      "requested_state_count": 17,
+      "K": 6,
+      "checkpoint_rule": {
+        "kind": "first_eligible_per_window",
+        "windows": [
+          [
+            3192,
+            3192
+          ],
+          [
+            3193,
+            3193
+          ],
+          [
+            3194,
+            3194
+          ],
+          [
+            3195,
+            3195
+          ],
+          [
+            3196,
+            3196
+          ],
+          [
+            3197,
+            3197
+          ],
+          [
+            3198,
+            3198
+          ],
+          [
+            3199,
+            3199
+          ],
+          [
+            3200,
+            3200
+          ],
+          [
+            3201,
+            3201
+          ],
+          [
+            3202,
+            3202
+          ],
+          [
+            3203,
+            3203
+          ],
+          [
+            3204,
+            3204
+          ],
+          [
+            3205,
+            3205
+          ],
+          [
+            3206,
+            3206
+          ],
+          [
+            3207,
+            3207
+          ],
+          [
+            3208,
+            3208
+          ]
+        ],
+        "minimum_legal_count": 1
+      }
+    }
+  ]
+}

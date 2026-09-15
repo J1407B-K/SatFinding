@@ -1,0 +1,115 @@
+{
+  "actions_frozen_before_any_ground_truth": true,
+  "build_path": "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/build/CURRENT_BUILD_MANIFEST.json",
+  "build_sha256": "49674c63164a99e6dc1c84fde8c512f72d1ab880f0b09aa8483e5b76cdf4abe1",
+  "features_frozen_before_any_ground_truth": true,
+  "frozen_at": "2026-09-15T11:11:01.537864+00:00",
+  "ground_truth_routes_started": 0,
+  "packages": [
+    {
+      "package_manifest_sha256": "698042205498318a61557a02760654ab0a4103892b58f9cbe3451ce1ec9872b8",
+      "path": "packages/T10_LOCAL_S1_B486897",
+      "state_id": "T10_LOCAL_S1_B486897",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "dc342adb5c983ac23a46e538384a4578484c868188b00ab2905c4e47f9e70db3",
+      "path": "packages/T10_LOCAL_S2_B487019",
+      "state_id": "T10_LOCAL_S2_B487019",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "4b77315bf83f9c1168703b9feb150ecbf20d9fbcbc59db63cf6732b5edca9915",
+      "path": "packages/T10_LOCAL_S3_B487244",
+      "state_id": "T10_LOCAL_S3_B487244",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "f9429b6c2facbeb8f7cfce76e39647363d7e51ae0a9614dfd87aef61ffd88278",
+      "path": "packages/T10_LOCAL_S4_B487418",
+      "state_id": "T10_LOCAL_S4_B487418",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "b285453affaa5fdd3ca046ba8c8b233bbaa36a44122623b36c0000e74511f4b7",
+      "path": "packages/T10_LOCAL_S5_B487505",
+      "state_id": "T10_LOCAL_S5_B487505",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "c352f7119200eb9c1522314093ba710170f08de697792752c198f1bc63e6f417",
+      "path": "packages/T10_LOCAL_S6_B487662",
+      "state_id": "T10_LOCAL_S6_B487662",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "3bd5706a1c1326ca5495d8d9a60a0bb0b9ae47fc4e26444b322259f7b18216d8",
+      "path": "packages/T10_LOCAL_S7_B487782",
+      "state_id": "T10_LOCAL_S7_B487782",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "fb98f145f2660255b8608aed06cdfa074704accb96141cfb59e13cab8a4e0d63",
+      "path": "packages/T10_LOCAL_S8_B487903",
+      "state_id": "T10_LOCAL_S8_B487903",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "100a98fa61fa8da6c814a4244930de2126b519396ccdfafc14368ea7ee6b6aa8",
+      "path": "packages/T10_LOCAL_S9_B488045",
+      "state_id": "T10_LOCAL_S9_B488045",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "90261468372da3ca77b2a15b8de47a363e8321f96252edc1c28dbe8547ae73f9",
+      "path": "packages/T10_LOCAL_S10_B488276",
+      "state_id": "T10_LOCAL_S10_B488276",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "455712a99d74877ad18cdf4d07f276c90391382a72bf1d8c56b343ab2fb63030",
+      "path": "packages/T10_LOCAL_S11_B488444",
+      "state_id": "T10_LOCAL_S11_B488444",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "97d291c7e7866d804e2f26f305e7413d9caff0a0edae38deea10805f22dd4760",
+      "path": "packages/T10_LOCAL_S12_B488676",
+      "state_id": "T10_LOCAL_S12_B488676",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "e0b04424123a5c1c7080fb142dd631ed10b8fe9177f935833feb3f326f9058c2",
+      "path": "packages/T10_LOCAL_S13_B488816",
+      "state_id": "T10_LOCAL_S13_B488816",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "e17a42b77cb1203ca2893ce963ee3383964ccfa28aaab2d4c892a085d0090ef5",
+      "path": "packages/T10_LOCAL_S14_B488880",
+      "state_id": "T10_LOCAL_S14_B488880",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "a1378ac3abc2e236379b6311b74759704ea5b5b47b4276aa736d6c9ae2f368a3",
+      "path": "packages/T10_LOCAL_S15_B489090",
+      "state_id": "T10_LOCAL_S15_B489090",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "909530047597bc37afe6e90f6bb77312432b2bae9f2210da434ffc94d5497ea9",
+      "path": "packages/T10_LOCAL_S16_B489406",
+      "state_id": "T10_LOCAL_S16_B489406",
+      "target": "T10_LOCAL"
+    },
+    {
+      "package_manifest_sha256": "1e88f90585c64c723af66482277f16d4aa7d6af888014beac8805aa2e9015f05",
+      "path": "packages/T10_LOCAL_S17_B489570",
+      "state_id": "T10_LOCAL_S17_B489570",
+      "target": "T10_LOCAL"
+    }
+  ],
+  "plan_path": "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/local_response_surface_v1/protocol/collection_plan.json",
+  "plan_sha256": "d2054122da94e7a27ff7f072289a6acfd4cd35689c9289ab42f7d775be463006",
+  "selection_completed_before_any_ground_truth": true
+}

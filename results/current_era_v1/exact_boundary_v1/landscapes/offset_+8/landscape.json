@@ -1,0 +1,112 @@
+{
+  "offset": 8,
+  "boundary": 488053,
+  "legal_actions": 13,
+  "baseline_ops": 360959,
+  "routes": [
+    {
+      "rank": 1,
+      "id": 208,
+      "literal": -570,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 2,
+      "id": 811,
+      "literal": -474,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 3,
+      "id": 892,
+      "literal": -462,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 4,
+      "id": 1725,
+      "literal": -285,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 5,
+      "id": 1883,
+      "literal": -243,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 6,
+      "id": 1953,
+      "literal": -216,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 7,
+      "id": 1973,
+      "literal": -210,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 8,
+      "id": 2197,
+      "literal": -125,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 9,
+      "id": 2325,
+      "literal": -60,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 10,
+      "id": 2368,
+      "literal": -26,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 11,
+      "id": 2369,
+      "literal": -25,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 12,
+      "id": 2479,
+      "literal": 236,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 13,
+      "id": 2565,
+      "literal": 494,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    }
+  ]
+}

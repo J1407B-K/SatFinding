@@ -1,0 +1,1806 @@
+[
+  {
+    "route": "landscapes/offset_+0/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+0/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+0/action_2/repeat3",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_2/repeat3/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_2/repeat3",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+0/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+0/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+1/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+1/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+1/action_2/repeat3",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_2/repeat3/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_2/repeat3",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+1/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+1/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+2/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+2/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+2/action_3/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_3/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_3/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+2/action_4/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_4/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_4/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_4/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+2/action_5/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_5/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_5/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/action_5/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+2/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+2/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_10/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_10/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_10/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_10/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_11/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_11/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_11/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_11/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_12/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_12/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_12/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_12/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_13/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_13/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_13/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_13/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_14/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_14/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_14/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_14/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_15/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_15/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_15/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_15/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_3/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_3/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_3/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_3/repeat3",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_3/repeat3/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_3/repeat3",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_4/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_4/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_4/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_4/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_5/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_5/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_5/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_5/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_6/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_6/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_6/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_6/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_7/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_7/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_7/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_7/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_8/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_8/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_8/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_8/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/action_9/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_9/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_9/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/action_9/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+4/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+4/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_10/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_10/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_10/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_10/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_11/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_11/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_11/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_11/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_12/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_12/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_12/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_12/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_13/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_13/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_13/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_13/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_3/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_3/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_3/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_4/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_4/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_4/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_4/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_5/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_5/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_5/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_5/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_6/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_6/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_6/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_6/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_7/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_7/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_7/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_7/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_8/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_8/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_8/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_8/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/action_9/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_9/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_9/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/action_9/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_+8/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_+8/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_10/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_10/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_10/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_10/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_11/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_11/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_11/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_11/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_12/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_12/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_12/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_12/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_13/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_13/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_13/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_13/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_14/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_14/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_14/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_14/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_15/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_15/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_15/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_15/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_16/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_16/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_16/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_16/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_17/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_17/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_17/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_17/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_18/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_18/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_18/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_18/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_19/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_19/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_19/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_19/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_20/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_20/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_20/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_20/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_3/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_3/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_3/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_4/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_4/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_4/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_4/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_5/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_5/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_5/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_5/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_6/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_6/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_6/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_6/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_7/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_7/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_7/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_7/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_8/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_8/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_8/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_8/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/action_9/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_9/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_9/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/action_9/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-1/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-1/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_10/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_10/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_10/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_10/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_11/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_11/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_11/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_11/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_12/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_12/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_12/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_12/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_13/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_13/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_13/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_13/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_14/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_14/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_14/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_14/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_15/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_15/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_15/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_15/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_16/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_16/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_16/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_16/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_17/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_17/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_17/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_17/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_18/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_18/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_18/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_18/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_3/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_3/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_3/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_4/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_4/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_4/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_4/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_5/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_5/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_5/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_5/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_6/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_6/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_6/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_6/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_7/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_7/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_7/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_7/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_8/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_8/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_8/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_8/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/action_9/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_9/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_9/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/action_9/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-2/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-2/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_10/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_10/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_10/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_10/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_11/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_11/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_11/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_11/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_12/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_12/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_12/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_12/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_13/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_13/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_13/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_13/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_14/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_14/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_14/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_14/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_15/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_15/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_15/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_15/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_16/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_16/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_16/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_16/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_17/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_17/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_17/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_17/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_18/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_18/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_18/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_18/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_3/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_3/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_3/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_4/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_4/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_4/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_4/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_5/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_5/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_5/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_5/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_6/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_6/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_6/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_6/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_7/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_7/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_7/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_7/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_8/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_8/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_8/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_8/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/action_9/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_9/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_9/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/action_9/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-4/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-4/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_1/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_1/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_1/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_1/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_10/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_10/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_10/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_10/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_11/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_11/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_11/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_11/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_12/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_12/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_12/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_12/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_13/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_13/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_13/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_13/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_14/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_14/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_14/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_14/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_15/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_15/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_15/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_15/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_16/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_16/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_16/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_16/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_17/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_17/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_17/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_17/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_18/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_18/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_18/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_18/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_19/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_19/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_19/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_19/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_2/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_2/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_2/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_2/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_20/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_20/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_20/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_20/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_3/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_3/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_3/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_3/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_4/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_4/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_4/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_4/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_5/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_5/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_5/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_5/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_6/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_6/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_6/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_6/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_7/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_7/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_7/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_7/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_8/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_8/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_8/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_8/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/action_9/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_9/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_9/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/action_9/request.txt"
+    ]
+  },
+  {
+    "route": "landscapes/offset_-8/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/landscapes/offset_-8/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+0/action/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/action/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/action/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/action/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+0/action/repeat3",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/action/repeat3/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/action/repeat3",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/action/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+0/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+0/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+1/action/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/action/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/action/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/action/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+1/action/repeat3",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/action/repeat3/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/action/repeat3",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/action/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+1/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+1/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+10/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+10/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+10/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+10/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+11/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+11/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+11/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+11/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+12/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+12/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+12/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+12/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+13/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+13/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+13/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+13/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+14/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+14/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+14/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+14/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+15/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+15/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+15/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+15/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+16/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+16/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+16/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+16/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+2/action/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+2/action/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+2/action/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+2/action/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+2/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+2/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+2/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+2/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+3/action/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+3/action/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+3/action/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+3/action/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+3/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+3/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+3/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+3/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+4/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+4/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+4/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+4/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+5/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+5/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+5/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+5/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+6/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+6/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+6/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+6/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+7/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+7/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+7/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+7/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+8/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+8/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+8/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+8/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_+9/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+9/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+9/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_+9/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-1/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-1/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-1/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-1/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-10/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-10/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-10/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-10/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-11/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-11/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-11/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-11/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-12/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-12/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-12/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-12/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-13/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-13/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-13/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-13/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-14/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-14/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-14/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-14/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-15/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-15/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-15/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-15/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-16/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-16/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-16/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-16/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-2/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-2/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-2/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-2/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-3/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-3/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-3/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-3/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-4/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-4/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-4/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-4/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-5/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-5/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-5/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-5/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-6/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-6/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-6/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-6/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-7/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-7/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-7/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-7/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-8/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-8/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-8/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-8/baseline/request.txt"
+    ]
+  },
+  {
+    "route": "routes/offset_-9/baseline/repeat2",
+    "verified": true,
+    "command": [
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-9/baseline/repeat2/proof.drup",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-9/baseline/repeat2",
+      "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/routes/offset_-9/baseline/request.txt"
+    ]
+  }
+]

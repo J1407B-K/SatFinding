@@ -1,0 +1,11 @@
+{
+  "EXACT_BOUNDARY_INFRASTRUCTURE_QUALIFIED": true,
+  "offset0_state_hash_match": true,
+  "offset0_anchor_resolved": true,
+  "proof_routes_verified": 159,
+  "repeat_routes_verified": 164,
+  "offset0_exact_reproduction": true,
+  "replay_fail_closed": true,
+  "BOUNDARY_TRACE_DETERMINISTIC": true,
+  "BOUNDARY_OBSERVER_NONPERTURBING": true
+}

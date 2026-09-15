@@ -1,0 +1,168 @@
+{
+  "offset": -1,
+  "boundary": 488044,
+  "legal_actions": 20,
+  "baseline_ops": 360959,
+  "routes": [
+    {
+      "rank": 1,
+      "id": 1515,
+      "literal": -339,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 2,
+      "id": 1762,
+      "literal": -272,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 3,
+      "id": 1764,
+      "literal": -264,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 4,
+      "id": 2413,
+      "literal": 37,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 5,
+      "id": 2434,
+      "literal": 101,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 6,
+      "id": 2439,
+      "literal": 117,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 7,
+      "id": 2501,
+      "literal": 303,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 8,
+      "id": 2504,
+      "literal": 310,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 9,
+      "id": 2535,
+      "literal": 404,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 10,
+      "id": 2541,
+      "literal": 422,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 11,
+      "id": 2553,
+      "literal": 457,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 12,
+      "id": 2557,
+      "literal": 470,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 13,
+      "id": 2592,
+      "literal": 575,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 14,
+      "id": 2599,
+      "literal": 597,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 15,
+      "id": 2630,
+      "literal": 396,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 16,
+      "id": 3545,
+      "literal": 120,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 17,
+      "id": 3653,
+      "literal": 575,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 18,
+      "id": 3947,
+      "literal": 575,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 19,
+      "id": 4674,
+      "literal": 396,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 20,
+      "id": 5171,
+      "literal": -118,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    }
+  ]
+}

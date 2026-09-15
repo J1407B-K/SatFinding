@@ -1,0 +1,24 @@
+{
+  "routes": 51,
+  "verified": 51,
+  "nonzero": 1,
+  "beneficial_ge5": 1,
+  "high": 1,
+  "anchor_matches": [
+    {
+      "state": "packages/T10_LOCAL_S9_B488045",
+      "boundary": 488045,
+      "rank": 2,
+      "id": 5633,
+      "delta_percent": -21.810435562935847,
+      "HIGH": true
+    }
+  ],
+  "classification": "ISOLATED_CLIFF_POINT",
+  "TIMING_IS_A_REAL_CONTROL_DIMENSION": false,
+  "ACTION_IDENTITY_LOCAL_STRUCTURE": false,
+  "LOCAL_CONTROL_SURFACE_SPARSE_OR_DISCONTINUOUS": true,
+  "decision": "DEPRIORITIZE_ENGINEERING_STEERING",
+  "proofs": "VERIFIED",
+  "replay": "VERIFIED"
+}

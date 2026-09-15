@@ -1,0 +1,24 @@
+{
+  "offset": 1,
+  "boundary": 488046,
+  "legal_actions": 2,
+  "baseline_ops": 360959,
+  "routes": [
+    {
+      "rank": 1,
+      "id": 2544,
+      "literal": 430,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 2,
+      "id": 5633,
+      "literal": 27,
+      "delta_percent": -14.409392756518058,
+      "proof": "VERIFIED",
+      "replay": true
+    }
+  ]
+}

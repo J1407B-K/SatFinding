@@ -1,0 +1,41 @@
+{
+  "action_rank": 2,
+  "action_verified": true,
+  "checker_returncode": 0,
+  "heuristic_verified": true,
+  "logical_verified": true,
+  "native_result": {
+    "action_verified": true,
+    "analysis_resolution_steps": 308947,
+    "binary": 29293,
+    "conflicts": 8306,
+    "decisions": 9741,
+    "dequeues": 1085369,
+    "enqueues": 1260485,
+    "propagations": 651511,
+    "redundancy": 351778,
+    "state_verified": true,
+    "status": "UNSAT",
+    "temporal_samples": 8306,
+    "watchers": 8674720
+  },
+  "package_hashes_unchanged": true,
+  "package_id": "T10_LOCAL_S9_B488045",
+  "package_manifest_sha256": "100a98fa61fa8da6c814a4244930de2126b519396ccdfafc14368ea7ee6b6aa8",
+  "prefix_counters": {
+    "analysis_resolution_steps": 122486,
+    "binary": 10112,
+    "dequeues": 417771,
+    "enqueues": 481047,
+    "redundancy": 145725,
+    "watchers": 2109515
+  },
+  "proof": "VERIFIED",
+  "proof_path": "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/local_response_surface_v1/collection/route_results/3e7e1ffe1af5c9ef88bb5cc3029b7e8d64f4c9f4416ef831799d4382d04a52ce/proof.drup",
+  "proof_seconds": 0.13024245899999976,
+  "proof_sha256": "fa03d36c13423ab8968519bbcc6893b665d6073c72cdc117f09093436bb870ea",
+  "route_id": "3e7e1ffe1af5c9ef88bb5cc3029b7e8d64f4c9f4416ef831799d4382d04a52ce",
+  "route_type": "ACTION",
+  "solve_seconds": 0.1394670419999997,
+  "target": "T10_LOCAL"
+}

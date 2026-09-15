@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "/Users/kqs-mac/Go/GoProjects/SatFinding/harness_v3/canonical_collector_native",
+    "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/protocol/T10.cnf",
+    "results/current_era_v1/local_response_surface_v1/collection/collection/T10_LOCAL/prefix.drup",
+    "results/current_era_v1/local_response_surface_v1/collection/collection/T10_LOCAL",
+    "results/current_era_v1/local_response_surface_v1/collection/collection/T10_LOCAL/native_plan.txt"
+  ],
+  "returncode": 0,
+  "seconds": 0.15342925
+}

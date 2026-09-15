@@ -1,0 +1,17 @@
+{
+  "boundary": 487019,
+  "canonical_heuristic_state_hash": "128b6022c4b17bd71b1716074100a40b6683defb4dd1e8c219164b0eb4499340",
+  "canonical_logical_state_hash": "e0cfd8b08a3923c8cbaaf7810d855790f1488894a041d1bcc270045ea50d97d2",
+  "checkpoint_kind": "observer_boundary",
+  "conflicts": 3193,
+  "decisions": 3791,
+  "enqueues": 480034,
+  "identity_version": 2,
+  "level": 8,
+  "prefix_analysis_ops": 122225,
+  "propagations": 244782,
+  "qhead": 74,
+  "state_id": "T10_LOCAL_S2_B487019",
+  "target": "T10_LOCAL",
+  "trail_length": 75
+}

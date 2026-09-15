@@ -1,0 +1,25 @@
+{
+  "actions_frozen_before_ground_truth": true,
+  "build_sha256": "49674c63164a99e6dc1c84fde8c512f72d1ab880f0b09aa8483e5b76cdf4abe1",
+  "collection_plan_sha256": "d2054122da94e7a27ff7f072289a6acfd4cd35689c9289ab42f7d775be463006",
+  "files": {
+    "actions.json": "f7e72c12f6d01905a2876f963a23bdbb4075fc6521ce9aad8b3b39b66af52f8c",
+    "collection_plan.json": "a241714c51e2cf971fd1e52f7ffb0d9ce197cb62cbd554a725a8e467006e675d",
+    "feature_schema.json": "1a377831db49b523c8e0a0d4601d89e8133c5789896752731017329cffe975a7",
+    "heuristic.txt": "055a91c1cd63efa4045ed989a2006b807d3db68ab2291528d7339f8d8652bbd3",
+    "input.cnf": "bc797b9875dae13dcb18e0c1deb4502cb62589ae901bda926a19e4d20db3edbb",
+    "logical.txt": "c953950b49fa416cb49585d8679474c9a10a124c92d5848c370208691e6e5c46",
+    "prefix_counters.json": "4f36e182e8d48fddee354c59d9f945a6404baad621604dc6b6046c5c99118840",
+    "protocol.json": "79bbc10b5f5b3254a1ff6286b8aff20694465e9fdfdeb508ec729e63011b3d9b",
+    "state.json": "83ea4cdab7851370d6bc82ade07ab784aa3bdfc86d2cc2d7dad3b6a06bea4ab5",
+    "temporal_features.json": "509c6fe427415a711d941b0451784d28d7bc6ed3aaefd2303348a8f342f3ce65",
+    "temporal_raw.json": "b3f5f4e67d5e51c72ed1bf654f2acded2c0960e5e1f452bc2acdb88adbfe05d8"
+  },
+  "frozen_at": "2026-09-15T11:11:01.517649+00:00",
+  "identity_version": 2,
+  "outcome_blind": true,
+  "package_id": "T10_LOCAL_S12_B488676",
+  "replay_binary_sha256": "f39b14a145d54a00dd8da49ad4bc0cee4d1c3ec5f25a534e645813f3cbc8fef4",
+  "runner_sha256": "d88f0f113c1ad26929619717f16a2c715248fedf8e7d851b99ef5756295c2014",
+  "temporal_features_collected_before_ground_truth": true
+}

@@ -1,0 +1,9 @@
+{
+  "scientific_window": [
+    -16,
+    16
+  ],
+  "boundary_step": 1,
+  "adjacent": true,
+  "trace_count": 33
+}

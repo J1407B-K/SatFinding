@@ -1,0 +1,48 @@
+{
+  "offset": 2,
+  "boundary": 488047,
+  "legal_actions": 5,
+  "baseline_ops": 360959,
+  "routes": [
+    {
+      "rank": 1,
+      "id": 701,
+      "literal": -493,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 2,
+      "id": 1075,
+      "literal": -235,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 3,
+      "id": 1076,
+      "literal": -229,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 4,
+      "id": 1077,
+      "literal": -202,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    },
+    {
+      "rank": 5,
+      "id": 5633,
+      "literal": 27,
+      "delta_percent": 0.0,
+      "proof": "VERIFIED",
+      "replay": true
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "offset": -16,
+    "boundary": 488029,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -15,
+    "boundary": 488030,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -14,
+    "boundary": 488031,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -13,
+    "boundary": 488032,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -12,
+    "boundary": 488033,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -11,
+    "boundary": 488034,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -10,
+    "boundary": 488035,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -9,
+    "boundary": 488036,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -8,
+    "boundary": 488037,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -7,
+    "boundary": 488038,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -6,
+    "boundary": 488039,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -5,
+    "boundary": 488040,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -4,
+    "boundary": 488041,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -3,
+    "boundary": 488042,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -2,
+    "boundary": 488043,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": -1,
+    "boundary": 488044,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 0,
+    "boundary": 488045,
+    "action_legal": true,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "action_rc": 0,
+    "action_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":true,\"conflicts\":8306,\"decisions\":9741,\"propagations\":651511,\"temporal_samples\":8306}\n{\"final_counters\":{\"analysis_resolution_steps\":308947,\"redundancy\":351778,\"binary\":29293,\"watchers\":8674720,\"dequeues\":1085369,\"enqueues\":1260485}}\n",
+    "baseline_ops": 360959,
+    "action_ops": 308947,
+    "delta_percent": -14.409392756518058
+  },
+  {
+    "offset": 1,
+    "boundary": 488046,
+    "action_legal": true,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "action_rc": 0,
+    "action_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":true,\"conflicts\":8306,\"decisions\":9741,\"propagations\":651511,\"temporal_samples\":8306}\n{\"final_counters\":{\"analysis_resolution_steps\":308947,\"redundancy\":351778,\"binary\":29293,\"watchers\":8674720,\"dequeues\":1085369,\"enqueues\":1260485}}\n",
+    "baseline_ops": 360959,
+    "action_ops": 308947,
+    "delta_percent": -14.409392756518058
+  },
+  {
+    "offset": 2,
+    "boundary": 488047,
+    "action_legal": true,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "action_rc": 0,
+    "action_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":true,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672702,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959,
+    "action_ops": 360959,
+    "delta_percent": 0.0
+  },
+  {
+    "offset": 3,
+    "boundary": 488048,
+    "action_legal": true,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "action_rc": 0,
+    "action_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":true,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672625,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959,
+    "action_ops": 360959,
+    "delta_percent": 0.0
+  },
+  {
+    "offset": 4,
+    "boundary": 488049,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 5,
+    "boundary": 488050,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 6,
+    "boundary": 488051,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 7,
+    "boundary": 488052,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 8,
+    "boundary": 488053,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 9,
+    "boundary": 488054,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 10,
+    "boundary": 488055,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 11,
+    "boundary": 488056,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 12,
+    "boundary": 488057,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 13,
+    "boundary": 488058,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 14,
+    "boundary": 488059,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 15,
+    "boundary": 488060,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  },
+  {
+    "offset": 16,
+    "boundary": 488061,
+    "action_legal": false,
+    "baseline_rc": 0,
+    "baseline_out": "{\"status\":\"UNSAT\",\"state_verified\":true,\"action_verified\":false,\"conflicts\":9783,\"decisions\":11441,\"propagations\":770564,\"temporal_samples\":9783}\n{\"final_counters\":{\"analysis_resolution_steps\":360959,\"redundancy\":412379,\"binary\":33762,\"watchers\":11672604,\"dequeues\":1270749,\"enqueues\":1479887}}\n",
+    "baseline_ops": 360959
+  }
+]

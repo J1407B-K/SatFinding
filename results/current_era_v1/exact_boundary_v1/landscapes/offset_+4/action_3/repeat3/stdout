@@ -1,0 +1,2 @@
+{"status":"UNSAT","state_verified":true,"action_verified":true,"conflicts":8306,"decisions":9741,"propagations":651511,"temporal_samples":8306}
+{"final_counters":{"analysis_resolution_steps":308947,"redundancy":351778,"binary":29293,"watchers":8674763,"dequeues":1085369,"enqueues":1260485}}

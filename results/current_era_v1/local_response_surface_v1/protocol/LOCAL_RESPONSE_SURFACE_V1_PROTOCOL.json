@@ -1,0 +1,60 @@
+{
+  "schema": "LOCAL_RESPONSE_SURFACE_V1",
+  "anchor": {
+    "state_id": "T10_S3_B488045",
+    "boundary": 488045,
+    "conflict": 3200,
+    "action_id": 5633,
+    "literal": 27,
+    "clause": [
+      27,
+      432,
+      203,
+      495,
+      473,
+      431
+    ],
+    "baseline_ops": 360959,
+    "treatment_ops": 308947
+  },
+  "timing_coordinate": "relative conflict ordinal to anchor conflict 3200; first eligible capture boundary per exact singleton conflict window",
+  "offsets": [
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "nearby_action_states": [
+    -8,
+    -4,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "action_rule": "full legal inventory at every collected state",
+  "repeat_rule": "all nonzero >=5% repeat twice; HIGH three times",
+  "route_budget": 250,
+  "classification_rules": {
+    "STRUCTURED_CRITICAL_WINDOW": "3 contiguous legal nonzero same-direction offsets and >=2 at least 5%",
+    "ISOLATED_CLIFF_POINT": "anchor HIGH, immediate legal neighbors zero, no nearby action cluster",
+    "NO_STABLE_LOCAL_STRUCTURE": "stable but no neighborhood structure",
+    "INSUFFICIENT": "missing anchor or provenance"
+  }
+}

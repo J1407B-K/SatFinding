@@ -1,0 +1,10 @@
+{
+  "status":"INSUFFICIENT",
+  "classification":"E_INSUFFICIENT",
+  "reason":"The current qualified collector samples the first eligible boundary in conflict windows, while the anchor is an enqueue-boundary checkpoint. The resulting 51 verified routes are valid current-era evidence but do not implement the preregistered relative propagation-boundary offsets.",
+  "anchor_preserved":true,
+  "legacy_used":false,
+  "proofs_verified":true,
+  "replay_verified":true,
+  "next_required_engineering":"add an exact enqueue-boundary offset collector/replay protocol before making a kill classification"
+}
