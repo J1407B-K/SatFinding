@@ -1,1 +1,0 @@
-{"study":"exploratory mechanistic causal","max_queue_reorders":1,"hook":"pending trail item only; no synthetic assignment/reason/clause mutation","cases":{"high":5,"matched_nonhigh":3},"qualification":{"modes":["NATIVE","OBSERVE_ONLY","LEGAL_REORDER_SMOKE"],"legality":"FIFO-compatible pending candidate swap"}}

@@ -1,9 +1,0 @@
-state_id,action_id,HIGH,status,detail
-T10_S3_B488045,5633,1,OBSERVED,availability divergence observed; conflict channel unresolved
-HIST_T10_FIXED,831,1,OBSERVED,availability divergence observed; conflict channel unresolved
-HIST_T10_FIXED,833,1,OBSERVED,availability divergence observed; conflict channel unresolved
-HIST_T10_FIXED,1273,1,OBSERVED,availability divergence observed; conflict channel unresolved
-HIST_T8_S5,1736,1,OBSERVED,availability divergence observed; conflict channel unresolved
-T10_S3_B488045,2544,0,RECONVERGED_OR_UNRESOLVED,availability divergence observed; conflict channel unresolved
-HIST_T10_FIXED,1269,0,RECONVERGED_OR_UNRESOLVED,availability divergence observed; conflict channel unresolved
-HIST_T8_S5,381,0,RECONVERGED_OR_UNRESOLVED,availability divergence observed; conflict channel unresolved

@@ -1,4 +1,0 @@
-harness_v3/glucose-3.0/utils/Options.cc:48:17: warning: add explicit braces to avoid dangling else [-Wdangling-else]
-   48 |                 else
-      |                 ^
-1 warning generated.

@@ -1,9 +1,0 @@
-{
-  "FULL_ACTION_INVENTORY": true,
-  "legal_count": 9,
-  "old_selected_count": 6,
-  "all_actions_count": 9,
-  "strictly_larger_than_old_subset": true,
-  "metadata_complete": 9,
-  "binary_sha256": "2fc6d7643ce87918d16c12df4cd22e8abfbd73fd293caef81d4292648e0ddbf2"
-}

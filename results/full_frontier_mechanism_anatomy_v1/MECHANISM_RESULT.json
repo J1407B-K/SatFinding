@@ -1,1 +1,0 @@
-{"result":"D","verdict":"PROPAGATION_FRONTIER_EVIDENCE_MIXED","fixed_dataset_defined":true,"full_frontier_routes_generated":0,"required_routes":16,"reason":"qualified observer binary/output orchestration is not present in repository; existing frozen replay emits bounded artifacts only","old_sealed_unchanged":true}
