@@ -20,6 +20,10 @@ static unsigned collected=0, window_index=0;
 static std::vector<std::pair<HU,HU>> collection_windows;
 static unsigned requested=0, action_budget=0, minimum_legal=0;
 static std::string collection_root;
+static bool checkpoint_captured=false;
+#ifdef OBSERVE_FULL_RUN
+static std::vector<int> observe_literals; static FILE* observe_file=nullptr; static HU observe_deq=0;
+#endif
 static void collection_finish(const char* reason){printf("{\"status\":\"COLLECTION_COMPLETE\",\"reason\":\"%s\",\"collected\":%u}\n",reason,collected);fflush(NULL);std::_Exit(0);}
 std::string scientific_counters(){std::ostringstream o;o<<"{\"analysis_resolution_steps\":"<<sf_analysis<<",\"redundancy\":"<<sf_redundancy<<",\"binary\":"<<sf_binary<<",\"watchers\":"<<watchers<<",\"dequeues\":"<<dequeues<<",\"enqueues\":"<<hc_enqueues<<"}";return o.str();}
 static HU restart_conflict=0,last_starts=0;
@@ -37,7 +41,11 @@ void Solver::hc_gc(){std::map<CRef,HU> next;for(auto e:hc_ids)next[ca[e.first].r
 void Solver::hc_before_enqueue(){++hc_enqueues;}
 static void pm_watch(){++watchers;}
 static void pm_visit(int){}
-void Solver::pm_dequeue(){++dequeues;}
+void Solver::pm_dequeue(){++dequeues;
+#ifdef OBSERVE_FULL_RUN
+ ++observe_deq;
+#endif
+}
 void Solver::pm_conflict_hook(CRef){++temporal_samples;conflict_level=decisionLevel();}
 void Solver::pm_analysis_hook(const vec<Lit>&l,int bt,unsigned glue){pending.length=l.size();pending.lbd=glue;pending.level=conflict_level;pending.bt=bt;pending.jump=conflict_level-bt;}
 void Solver::pm_backtrack_hook(){pending.conflict=conflicts;pending.dec=decisions-prev_dec;pending.deq=dequeues-prev_deq;pending.ops=sf_analysis-prev_ops;pending.watch=watchers-prev_watch;pending.enq=hc_enqueues-prev_enq;pending.restart=starts;pending.since=conflicts-restart_conflict;ring[pos++%128]=pending;prev_dec=decisions;prev_deq=dequeues;prev_ops=sf_analysis;prev_watch=watchers;prev_enq=hc_enqueues;}
@@ -75,7 +83,13 @@ void Solver::hc_observe(){
  static bool plan_loaded=false;
  if(!plan_loaded){std::ifstream f(request_path);unsigned n;f>>action_budget>>requested>>minimum_legal>>n;if(!f||action_budget<1||action_budget>6||!requested||!minimum_legal||n<requested)throw std::runtime_error("COLLECTION_PLAN");HU previous=0;for(unsigned i=0;i<n;i++){HU lo,hi;f>>lo>>hi;if(!f||lo>hi||(i&&lo<=previous))throw std::runtime_error("COLLECTION_WINDOWS");collection_windows.push_back({lo,hi});previous=hi;}std::string extra;if(f>>extra)throw std::runtime_error("PLAN_TRAILING_INPUT");collection_root=output_dir;plan_loaded=true;}
  while(window_index<collection_windows.size()&&conflicts>collection_windows[window_index].second)++window_index;
- if(window_index==collection_windows.size())collection_finish("WINDOWS_EXHAUSTED");
+ if(window_index==collection_windows.size() && !checkpoint_captured){
+#ifdef OBSERVE_FULL_RUN
+ return;
+#else
+ collection_finish("WINDOWS_EXHAUSTED");
+#endif
+}
  if(conflicts<collection_windows[window_index].first)return;
  struct Action{HU id;CRef cr;Lit p;};std::vector<Action> actions;
  auto scan=[&](const vec<CRef>&db){for(int i=0;i<db.size();i++){CRef cr=db[i];const Clause&c=ca[cr];if(c.mark())continue;bool sat=false;int n=0;Lit p=lit_Undef;for(int j=0;j<c.size();j++){sat|=value(c[j])==l_True;if(value(c[j])==l_Undef){n++;p=c[j];}}if(!sat&&n==1&&(c.size()==2||(c.size()>2&&c[0]==p)))actions.push_back({hc_ids.at(cr),cr,p});}};scan(clauses);scan(learnts);if(actions.size()<minimum_legal)return;
@@ -87,7 +101,8 @@ void Solver::hc_observe(){
 #endif
 #ifdef COLLECTOR
  output_dir=collection_root+"/S"+std::to_string(collected+1);
- if(mkdir(output_dir.c_str(),0755)!=0)throw std::runtime_error("CHECKPOINT_DIRECTORY_EXISTS");
+ if(!checkpoint_captured && mkdir(output_dir.c_str(),0755)!=0)throw std::runtime_error("CHECKPOINT_DIRECTORY_EXISTS");
+ checkpoint_captured=true;
 #endif
  std::string logical=canonical_logical(),heuristic=canonical_heuristic();
  write(output_dir+"/logical.txt",logical);write(output_dir+"/heuristic.txt",heuristic);
@@ -103,8 +118,13 @@ void Solver::hc_observe(){
  int take=std::min((unsigned)actions.size(),action_budget);
  std::ostringstream a;a<<"{\"legal_count\":"<<actions.size()<<",\"K\":"<<action_budget<<",\"selected_count\":"<<take<<",\"selected\":[";for(int i=0;i<take;i++){auto act=actions[i];const Clause&c=ca[act.cr];if(i)a<<',';a<<"{\"rank\":"<<i+1<<",\"id\":"<<act.id<<",\"literal\":"<<lit(act.p)<<",\"source\":\""<<(c.learnt()?"learned":"original")<<"\",\"unit_layout_verified\":true,\"unassigned_count\":1,\"true_count\":0,\"clause\":[";for(int j=0;j<c.size();j++)a<<(j?",":"")<<lit(c[j]);a<<"]}";}a<<"],\"all_actions\":[";for(size_t i=0;i<actions.size();i++){auto act=actions[i];const Clause&c=ca[act.cr];if(i)a<<',';a<<"{\"rank\":"<<i+1<<",\"id\":"<<act.id<<",\"literal\":"<<lit(act.p)<<",\"source\":\""<<(c.learnt()?"learned":"original")<<"\",\"unit_layout_verified\":true,\"unassigned_count\":1,\"true_count\":0,\"clause\":[";for(int j=0;j<c.size();j++)a<<(j?",":"")<<lit(c[j]);a<<"]}";}a<<"],\"eligible_ids\":[";for(size_t i=0;i<actions.size();i++)a<<(i?",":"")<<actions[i].id;a<<"]}";write(output_dir+"/actions.json",a.str());
  std::ostringstream t;t<<"{\"logical_samples\":[";HU n=std::min(pos,128ULL);for(HU i=0;i<n;i++){const Sample&s=ring[(pos-n+i)%128];if(i)t<<',';t<<"{\"conflict_index\":"<<s.conflict<<",\"learned_length\":"<<s.length<<",\"lbd\":"<<s.lbd<<",\"backtrack_level\":"<<s.bt<<",\"backjump_depth\":"<<s.jump<<",\"decisions_delta\":"<<s.dec<<",\"dequeues_delta\":"<<s.deq<<",\"analysis_ops_delta\":"<<s.ops<<",\"watcher_visits_delta\":"<<s.watch<<",\"enqueues_delta\":"<<s.enq<<",\"restart_epoch\":"<<s.restart<<",\"conflicts_since_restart\":"<<s.since<<"}";}t<<"]}";write(output_dir+"/temporal_raw.json",t.str());
+ #ifdef OBSERVE_FULL_RUN
+ for(auto const& act: actions) observe_literals.push_back(lit(act.p));
+ observe_file=fopen((output_dir+"/native_timing.jsonl").c_str(),"w");
+#else
  ++collected;++window_index;
  if(collected==requested)collection_finish("REQUEST_SATISFIED");
+#endif
 #else
  if(aid){CRef cr=CRef_Undef;for(auto e:hc_ids)if(e.second==aid){cr=e.first;break;}if(cr==CRef_Undef)throw std::runtime_error("CLAUSE_ID_MISSING");const Clause&c=ca[cr];if(c.mark()||c.learnt()!=source||c.size()!=(int)frozen.size())throw std::runtime_error("CLAUSE_METADATA");std::vector<int> actual;for(int j=0;j<c.size();j++)actual.push_back(lit(c[j]));std::sort(actual.begin(),actual.end());std::sort(frozen.begin(),frozen.end());if(actual!=frozen)throw std::runtime_error("CLAUSE_CONTENT");Lit p=mkLit(abs(implied)-1,implied<0);int n=0;for(int j=0;j<c.size();j++){if(c[j]==p)n++;else if(value(c[j])!=l_False)throw std::runtime_error("NOT_UNIT");}if(n!=1||value(p)!=l_Undef||!(c.size()==2||(c.size()>2&&c[0]==p)))throw std::runtime_error("ILLEGAL_IMPLICATION");uncheckedEnqueue(p,cr);action_verified=true;}
 #endif
