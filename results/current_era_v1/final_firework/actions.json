@@ -1,0 +1,1 @@
+{"legal_count":2,"K":6,"selected_count":2,"selected":[{"rank":1,"id":2544,"literal":430,"source":"original","unit_layout_verified":true,"unassigned_count":1,"true_count":0,"clause":[430,432,431]},{"rank":2,"id":5633,"literal":27,"source":"learned","unit_layout_verified":true,"unassigned_count":1,"true_count":0,"clause":[27,432,203,495,473,431]}],"eligible_ids":[2544,5633]}

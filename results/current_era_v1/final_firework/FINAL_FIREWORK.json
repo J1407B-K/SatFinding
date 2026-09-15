@@ -1,0 +1,86 @@
+{
+  "event": "FINAL_FIREWORK",
+  "baseline_ops": 360959,
+  "treatment_ops": 308947,
+  "saved_ops": 52012,
+  "delta_percent": -14.409392756518058,
+  "routes": [
+    {
+      "role": "baseline",
+      "command": [
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/input.cnf",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/baseline/proof.drup",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/baseline",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/baseline/request.txt"
+      ],
+      "checker_command": [
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/execution_pipeline_v1/native/proof-checker",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/input.cnf",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/baseline/proof.drup"
+      ],
+      "returncode": 0,
+      "checker_returncode": 0,
+      "binary_sha256": "acecbb1072c2bd68d91908d4fdb740414b3cf6594edbd28b75bc4f0ca142a3d9",
+      "checker_sha256": "2088c5937433146df7f0a7b4d0d01978a37002061d7e3744870b52015f5717d0",
+      "result": {
+        "status": "UNSAT",
+        "state_verified": true,
+        "action_verified": false,
+        "conflicts": 9783,
+        "decisions": 11441,
+        "propagations": 770564,
+        "temporal_samples": 9783
+      },
+      "counters": {
+        "analysis_resolution_steps": 360959,
+        "redundancy": 412379,
+        "binary": 33762,
+        "watchers": 11672604,
+        "dequeues": 1270749,
+        "enqueues": 1479887
+      },
+      "proof_verified": true,
+      "archived_replay_exact_match": true
+    },
+    {
+      "role": "treatment",
+      "command": [
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/exact_boundary_v1/replay",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/input.cnf",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/treatment/proof.drup",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/treatment",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/treatment/request.txt"
+      ],
+      "checker_command": [
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/execution_pipeline_v1/native/proof-checker",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/input.cnf",
+        "/Users/kqs-mac/Go/GoProjects/SatFinding/results/current_era_v1/final_firework/treatment/proof.drup"
+      ],
+      "returncode": 0,
+      "checker_returncode": 0,
+      "binary_sha256": "acecbb1072c2bd68d91908d4fdb740414b3cf6594edbd28b75bc4f0ca142a3d9",
+      "checker_sha256": "2088c5937433146df7f0a7b4d0d01978a37002061d7e3744870b52015f5717d0",
+      "result": {
+        "status": "UNSAT",
+        "state_verified": true,
+        "action_verified": true,
+        "conflicts": 8306,
+        "decisions": 9741,
+        "propagations": 651511,
+        "temporal_samples": 8306
+      },
+      "counters": {
+        "analysis_resolution_steps": 308947,
+        "redundancy": 351778,
+        "binary": 29293,
+        "watchers": 8674720,
+        "dequeues": 1085369,
+        "enqueues": 1260485
+      },
+      "proof_verified": true,
+      "archived_replay_exact_match": true
+    }
+  ],
+  "scope": "Single archived anchor replay; no new generalization."
+}
