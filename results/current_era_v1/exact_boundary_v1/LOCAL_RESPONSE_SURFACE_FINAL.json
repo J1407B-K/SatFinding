@@ -357,14 +357,14 @@
       "high": 0
     }
   ],
-  "local_action_cluster": true,
-  "classification": "B_LOCALLY_SMOOTH_BUT_NONMONOTONIC",
-  "TIMING_IS_A_REAL_CONTROL_DIMENSION": true,
-  "ACTION_IDENTITY_LOCAL_STRUCTURE": true,
-  "LOCAL_CONTROL_SURFACE_SPARSE_OR_DISCONTINUOUS": false,
+  "local_action_cluster": false,
+  "classification": "D_NO_STABLE_LOCAL_STRUCTURE",
+  "TIMING_IS_A_REAL_CONTROL_DIMENSION": "unresolved",
+  "ACTION_IDENTITY_LOCAL_STRUCTURE": "unresolved",
+  "LOCAL_CONTROL_SURFACE_SPARSE_OR_DISCONTINUOUS": true,
   "ANCHOR_IS_ISOLATED": false,
-  "kill_decision": "CONTINUE",
-  "one_sentence": "The -14.409% is a local response structure spanning adjacent exact boundaries, with a second nearby positive boundary, not an isolated lottery point.",
+  "kill_decision": "DEPRIORITIZE",
+  "one_sentence": "The anchor HIGH repeats at offset +1, but the frozen three-point critical-window criterion is not met; other nearby landscapes are overwhelmingly zero, so no stable local control surface is established.",
   "proof_routes_verified": 159,
   "repeat_routes_verified": 164,
   "qualification": "PASSED"
