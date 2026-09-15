@@ -20,10 +20,6 @@ static unsigned collected=0, window_index=0;
 static std::vector<std::pair<HU,HU>> collection_windows;
 static unsigned requested=0, action_budget=0, minimum_legal=0;
 static std::string collection_root;
-static bool checkpoint_captured=false;
-#ifdef OBSERVE_FULL_RUN
-static std::vector<int> observe_literals; static FILE* observe_file=nullptr; static HU observe_deq=0;
-#endif
 static void collection_finish(const char* reason){printf("{\"status\":\"COLLECTION_COMPLETE\",\"reason\":\"%s\",\"collected\":%u}\n",reason,collected);fflush(NULL);std::_Exit(0);}
 std::string scientific_counters(){std::ostringstream o;o<<"{\"analysis_resolution_steps\":"<<sf_analysis<<",\"redundancy\":"<<sf_redundancy<<",\"binary\":"<<sf_binary<<",\"watchers\":"<<watchers<<",\"dequeues\":"<<dequeues<<",\"enqueues\":"<<hc_enqueues<<"}";return o.str();}
 static HU restart_conflict=0,last_starts=0;
@@ -36,6 +32,9 @@ static void write(const std::string&p,const std::string&s){std::ofstream f(p);if
 static int lit(Lit p){return (var(p)+1)*(sign(p)?-1:1);}
 static std::string hex(double d){char b[100];snprintf(b,sizeof b,"%a",d);return b;}
 template<class T> static void array(std::ostream&o,const T&v){o<<'[';bool first=true;for(auto x:v){if(!first)o<<',';first=false;o<<x;}o<<']';}
+#ifdef OBSERVE_FULL_RUN
+#include "/Users/kqs-mac/Go/GoProjects/SatFinding/opportunity_generation_v2/lifecycle.inc"
+#endif
 void Solver::hc_register(CRef cr){hc_ids[cr]=++hc_ids_next;}
 void Solver::hc_gc(){std::map<CRef,HU> next;for(auto e:hc_ids)next[ca[e.first].relocation()]=e.second;hc_ids.swap(next);}
 void Solver::hc_before_enqueue(){++hc_enqueues;}
@@ -43,10 +42,14 @@ static void pm_watch(){++watchers;}
 static void pm_visit(int){}
 void Solver::pm_dequeue(){++dequeues;
 #ifdef OBSERVE_FULL_RUN
- ++observe_deq;
+ if(ov_phase==ObserverPhase::OBSERVING_FULL_RUN&&ov_on()){++ov_p;ov_event("dequeue",std::to_string(lit(trail[qhead-1])));}
 #endif
 }
-void Solver::pm_conflict_hook(CRef){++temporal_samples;conflict_level=decisionLevel();}
+void Solver::pm_conflict_hook(CRef cr){
+#ifdef OBSERVE_FULL_RUN
+ if(ov_phase==ObserverPhase::OBSERVING_FULL_RUN&&ov_on()){++ov_c;std::vector<int>v;for(int j=0;j<ca[cr].size();j++)v.push_back(lit(ca[cr][j]));std::ostringstream o;array(o,v);ov_event("conflict",o.str());}
+#endif
+++temporal_samples;conflict_level=decisionLevel();}
 void Solver::pm_analysis_hook(const vec<Lit>&l,int bt,unsigned glue){pending.length=l.size();pending.lbd=glue;pending.level=conflict_level;pending.bt=bt;pending.jump=conflict_level-bt;}
 void Solver::pm_backtrack_hook(){pending.conflict=conflicts;pending.dec=decisions-prev_dec;pending.deq=dequeues-prev_deq;pending.ops=sf_analysis-prev_ops;pending.watch=watchers-prev_watch;pending.enq=hc_enqueues-prev_enq;pending.restart=starts;pending.since=conflicts-restart_conflict;ring[pos++%128]=pending;prev_dec=decisions;prev_deq=dequeues;prev_ops=sf_analysis;prev_watch=watchers;prev_enq=hc_enqueues;}
 std::string Solver::canonical_logical(){
@@ -76,6 +79,9 @@ void Solver::hc_boundary(){
 if(last_starts!=(HU)starts){last_starts=starts;restart_conflict=conflicts;}hc_observe();}
 void Solver::hc_observe(){
  ++boundary;
+#ifdef OBSERVE_FULL_RUN
+ if(ov_phase!=ObserverPhase::WAITING_FOR_CHECKPOINT)return;
+#endif
 #ifdef REPLAY
  if(reached)return;
 #endif
@@ -83,7 +89,7 @@ void Solver::hc_observe(){
  static bool plan_loaded=false;
  if(!plan_loaded){std::ifstream f(request_path);unsigned n;f>>action_budget>>requested>>minimum_legal>>n;if(!f||action_budget<1||action_budget>6||!requested||!minimum_legal||n<requested)throw std::runtime_error("COLLECTION_PLAN");HU previous=0;for(unsigned i=0;i<n;i++){HU lo,hi;f>>lo>>hi;if(!f||lo>hi||(i&&lo<=previous))throw std::runtime_error("COLLECTION_WINDOWS");collection_windows.push_back({lo,hi});previous=hi;}std::string extra;if(f>>extra)throw std::runtime_error("PLAN_TRAILING_INPUT");collection_root=output_dir;plan_loaded=true;}
  while(window_index<collection_windows.size()&&conflicts>collection_windows[window_index].second)++window_index;
- if(window_index==collection_windows.size() && !checkpoint_captured){
+ if(window_index==collection_windows.size()){
 #ifdef OBSERVE_FULL_RUN
  return;
 #else
@@ -101,8 +107,10 @@ void Solver::hc_observe(){
 #endif
 #ifdef COLLECTOR
  output_dir=collection_root+"/S"+std::to_string(collected+1);
- if(!checkpoint_captured && mkdir(output_dir.c_str(),0755)!=0)throw std::runtime_error("CHECKPOINT_DIRECTORY_EXISTS");
- checkpoint_captured=true;
+ if(mkdir(output_dir.c_str(),0755)!=0)throw std::runtime_error("CHECKPOINT_DIRECTORY_EXISTS");
+#ifdef OBSERVE_FULL_RUN
+ ov_phase=ObserverPhase::CAPTURE_ONCE;++ov_capture;reached=true;
+#endif
 #endif
  std::string logical=canonical_logical(),heuristic=canonical_heuristic();
  write(output_dir+"/logical.txt",logical);write(output_dir+"/heuristic.txt",heuristic);
@@ -119,8 +127,12 @@ void Solver::hc_observe(){
  std::ostringstream a;a<<"{\"legal_count\":"<<actions.size()<<",\"K\":"<<action_budget<<",\"selected_count\":"<<take<<",\"selected\":[";for(int i=0;i<take;i++){auto act=actions[i];const Clause&c=ca[act.cr];if(i)a<<',';a<<"{\"rank\":"<<i+1<<",\"id\":"<<act.id<<",\"literal\":"<<lit(act.p)<<",\"source\":\""<<(c.learnt()?"learned":"original")<<"\",\"unit_layout_verified\":true,\"unassigned_count\":1,\"true_count\":0,\"clause\":[";for(int j=0;j<c.size();j++)a<<(j?",":"")<<lit(c[j]);a<<"]}";}a<<"],\"all_actions\":[";for(size_t i=0;i<actions.size();i++){auto act=actions[i];const Clause&c=ca[act.cr];if(i)a<<',';a<<"{\"rank\":"<<i+1<<",\"id\":"<<act.id<<",\"literal\":"<<lit(act.p)<<",\"source\":\""<<(c.learnt()?"learned":"original")<<"\",\"unit_layout_verified\":true,\"unassigned_count\":1,\"true_count\":0,\"clause\":[";for(int j=0;j<c.size();j++)a<<(j?",":"")<<lit(c[j]);a<<"]}";}a<<"],\"eligible_ids\":[";for(size_t i=0;i<actions.size();i++)a<<(i?",":"")<<actions[i].id;a<<"]}";write(output_dir+"/actions.json",a.str());
  std::ostringstream t;t<<"{\"logical_samples\":[";HU n=std::min(pos,128ULL);for(HU i=0;i<n;i++){const Sample&s=ring[(pos-n+i)%128];if(i)t<<',';t<<"{\"conflict_index\":"<<s.conflict<<",\"learned_length\":"<<s.length<<",\"lbd\":"<<s.lbd<<",\"backtrack_level\":"<<s.bt<<",\"backjump_depth\":"<<s.jump<<",\"decisions_delta\":"<<s.dec<<",\"dequeues_delta\":"<<s.deq<<",\"analysis_ops_delta\":"<<s.ops<<",\"watcher_visits_delta\":"<<s.watch<<",\"enqueues_delta\":"<<s.enq<<",\"restart_epoch\":"<<s.restart<<",\"conflicts_since_restart\":"<<s.since<<"}";}t<<"]}";write(output_dir+"/temporal_raw.json",t.str());
  #ifdef OBSERVE_FULL_RUN
- for(auto const& act: actions) observe_literals.push_back(lit(act.p));
- observe_file=fopen((output_dir+"/native_timing.jsonl").c_str(),"w");
+ if(ov_on()){
+ for(auto const&act:actions){FrozenOpportunity f;f.id=act.id;f.literal=lit(act.p);for(int j=0;j<ca[act.cr].size();j++)f.clause.push_back(lit(ca[act.cr][j]));std::sort(f.clause.begin(),f.clause.end());ov_actions.push_back(f);}
+ ++ov_freeze;ov_raw=fopen((output_dir+"/raw_events.jsonl").c_str(),"w");if(!ov_raw)throw std::runtime_error("TELEMETRY_OPEN");++ov_arm;
+ }
+ write(output_dir+"/nonmutation.json", "{\"logical_before\":\""+digest(logical)+"\",\"logical_after\":\""+digest(canonical_logical())+"\",\"heuristic_before\":\""+digest(heuristic)+"\",\"heuristic_after\":\""+digest(canonical_heuristic())+"\"}");
+ ov_phase=ObserverPhase::OBSERVING_FULL_RUN;
 #else
  ++collected;++window_index;
  if(collected==requested)collection_finish("REQUEST_SATISFIED");

@@ -777,6 +777,9 @@ void Solver::uncheckedEnqueue(Lit p, CRef from)
 {
     assert(value(p) == l_Undef);
     hc_before_enqueue();
+#ifdef OBSERVE_FULL_RUN
+    if(ov_phase==ObserverPhase::OBSERVING_FULL_RUN && ov_on()){std::vector<int> rs;HU rid=0;if(from!=CRef_Undef){rid=hc_ids.at(from);for(int j=0;j<ca[from].size();j++)rs.push_back(lit(ca[from][j]));}ov_enqueue(lit(p),rid,rs);}
+#endif
     assigns[var(p)] = lbool(!sign(p));
     vardata[var(p)] = mkVarData(from, decisionLevel());
     trail.push_(p);
