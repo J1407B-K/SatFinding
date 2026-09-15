@@ -9,6 +9,7 @@ def bucket(d):
  return 'CROSS_CONFLICT_OR_UNOBSERVED'
 def build(case, telemetry, out):
  c=Path(case); st=json.loads((c/'checkpoint/state.json').read_text()); acts=json.loads((c/'action/actions.json').read_text())
+ acts={'selected': acts.get('all_actions',acts.get('selected',[]))}
  ev=[json.loads(x) for x in Path(telemetry).read_text().splitlines()]
  enq={}; dq=0
  for e in ev:
