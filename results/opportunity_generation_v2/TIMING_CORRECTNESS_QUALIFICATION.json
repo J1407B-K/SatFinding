@@ -1,0 +1,6 @@
+{
+  "independently_verified": 0,
+  "total": 9,
+  "pass": false,
+  "reason": "Independent baseline telemetry timing comparator is not available from COLLECTOR output; all_actions inventory has no native timing fields."
+}

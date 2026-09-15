@@ -1,58 +1,22 @@
 {
   "COLLECTOR_QUALIFIED": false,
-  "determinism": true,
-  "nonperturbation": "UNRESOLVED: qualification used sealed baseline telemetry only",
-  "timing_correctness": "PARTIAL: selected action records verified; full eligible inventory unavailable in legacy artifacts",
-  "qualification_states": [
-    {
-      "case": "T10M3",
-      "rank": 5,
-      "inventory_sha256": "d493347973c9fac3587d5aceb7494d0b84df59016e090bb0b2a727fd88b8456c",
-      "repeat_sha256": "d493347973c9fac3587d5aceb7494d0b84df59016e090bb0b2a727fd88b8456c",
-      "exact_same": true,
-      "timed": 6,
-      "buckets": {
-        "BUCKET_1": 6,
-        "BUCKET_2_4": 0,
-        "BUCKET_5_16": 0,
-        "BUCKET_GT16": 0
-      }
-    },
-    {
-      "case": "T10M5",
-      "rank": 4,
-      "inventory_sha256": "acbd5b4b3492338e1e691c004b7376c87edda1d0d405da620a451e27be19c347",
-      "repeat_sha256": "acbd5b4b3492338e1e691c004b7376c87edda1d0d405da620a451e27be19c347",
-      "exact_same": true,
-      "timed": 4,
-      "buckets": {
-        "BUCKET_1": 4,
-        "BUCKET_2_4": 0,
-        "BUCKET_5_16": 0,
-        "BUCKET_GT16": 0
-      }
-    },
-    {
-      "case": "T8F1",
-      "rank": 5,
-      "inventory_sha256": "7c30605dd56f520fab307c6307c2db634f212f93cae8ea35b979031eb5675581",
-      "repeat_sha256": "7c30605dd56f520fab307c6307c2db634f212f93cae8ea35b979031eb5675581",
-      "exact_same": true,
-      "timed": 5,
-      "buckets": {
-        "BUCKET_1": 5,
-        "BUCKET_2_4": 0,
-        "BUCKET_5_16": 0,
-        "BUCKET_GT16": 0
-      }
-    }
-  ],
-  "scientific_routes_included": 0,
   "protocol_sha256": "f9f0ad327b059d5298f18d7b979f9752916b2a9b3fef0e08a96a0168b42be8ed",
-  "failure_reason": "Fresh collector binary and full-action smoke pass. Full OFF/ON1/ON2 nonperturbation qualification and timing correctness rerun remain pending because qualification harness still consumes legacy sealed selected-only action packages; no scientific V2 routes started.",
-  "build_verified": true,
-  "build_manifest": "COLLECTOR_BUILD_MANIFEST.json",
-  "full_inventory_smoke": "FULL_ACTION_INVENTORY_SMOKE.json",
   "source_commit": "1f0acbddacdf26860221f5218071ca5a8223e389",
-  "binary_sha256": "2fc6d7643ce87918d16c12df4cd22e8abfbd73fd293caef81d4292648e0ddbf2"
+  "binary_sha256": "2fc6d7643ce87918d16c12df4cd22e8abfbd73fd293caef81d4292648e0ddbf2",
+  "input_sha256": "bc797b9875dae13dcb18e0c1deb4502cb62589ae901bda926a19e4d20db3edbb",
+  "checkpoint_sha256": "59e272bfc0bebcbe87865751a7f90de7de5d98b2d5e4bc08a96e16a892d89e41",
+  "gates": {
+    "BUILD_VERIFIED": true,
+    "FULL_ACTION_INVENTORY": true,
+    "METADATA_COMPLETE": true,
+    "DETERMINISM_PASS": true,
+    "NONPERTURBATION_PASS": false,
+    "TIMING_CORRECTNESS_PASS": false,
+    "PROOFS_VERIFIED": false
+  },
+  "failed_gate": "NONPERTURBATION_PASS and TIMING_CORRECTNESS_PASS",
+  "scientific_routes_consumed": 0,
+  "qualification_states": [
+    "T10M3/rank5"
+  ]
 }
