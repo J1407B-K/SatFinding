@@ -1,22 +1,22 @@
 {
-  "COLLECTOR_QUALIFIED": false,
+  "COLLECTOR_QUALIFIED": true,
+  "source_commit": "6db124ac815bb293d508e3d1e33b6cfd8eb01df7",
+  "binary_sha256": "f80ae7ae2a2fc31febfef14d9c34d8e25cde3278fd8e1ebc4197b8c45c4f83ec",
   "protocol_sha256": "f9f0ad327b059d5298f18d7b979f9752916b2a9b3fef0e08a96a0168b42be8ed",
-  "source_commit": "1f0acbddacdf26860221f5218071ca5a8223e389",
-  "binary_sha256": "2fc6d7643ce87918d16c12df4cd22e8abfbd73fd293caef81d4292648e0ddbf2",
-  "input_sha256": "bc797b9875dae13dcb18e0c1deb4502cb62589ae901bda926a19e4d20db3edbb",
-  "checkpoint_sha256": "59e272bfc0bebcbe87865751a7f90de7de5d98b2d5e4bc08a96e16a892d89e41",
   "gates": {
     "BUILD_VERIFIED": true,
     "FULL_ACTION_INVENTORY": true,
     "METADATA_COMPLETE": true,
     "DETERMINISM_PASS": true,
-    "NONPERTURBATION_PASS": false,
-    "TIMING_CORRECTNESS_PASS": false,
-    "PROOFS_VERIFIED": false
+    "OBSERVER_STATE_NONMUTATION": true,
+    "NONPERTURBATION_PASS": true,
+    "TIMING_CORRECTNESS_PASS": true,
+    "PROOFS_VERIFIED": true
   },
-  "failed_gate": "NONPERTURBATION_PASS and TIMING_CORRECTNESS_PASS",
-  "scientific_routes_consumed": 0,
-  "qualification_states": [
-    "T10M3/rank5"
-  ]
+  "scientific_budget_consumed": 0,
+  "timing_buckets": [
+    "BUCKET_1"
+  ],
+  "off_on_counters_exact_equal": true,
+  "on1_on2_timing_stable": true
 }

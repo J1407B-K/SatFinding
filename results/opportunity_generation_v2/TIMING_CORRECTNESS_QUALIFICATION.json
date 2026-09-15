@@ -1,6 +1,21 @@
 {
-  "independently_verified": 0,
-  "total": 9,
-  "pass": false,
-  "reason": "Independent baseline telemetry timing comparator is not available from COLLECTOR output; all_actions inventory has no native timing fields."
+  "independent_recomputed_timing": 18,
+  "total": 18,
+  "per_run": [
+    {
+      "mode": "ON1",
+      "checked": 9,
+      "pass": 9,
+      "all_pass": true,
+      "timing_sha256": "b0b46ec49eb2b5230f1d8789c26a7fd866f947854cdc856fb150de1abd3331fc"
+    },
+    {
+      "mode": "ON2",
+      "checked": 9,
+      "pass": 9,
+      "all_pass": true,
+      "timing_sha256": "b0b46ec49eb2b5230f1d8789c26a7fd866f947854cdc856fb150de1abd3331fc"
+    }
+  ],
+  "pass": true
 }

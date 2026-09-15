@@ -1,0 +1,41 @@
+[
+  {
+    "mode": "OFF",
+    "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+    "checker_verified": true,
+    "lifecycle": {
+      "phase": "TERMINATED",
+      "checkpoint_capture_count": 1,
+      "inventory_freeze_count": 0,
+      "observer_arm_count": 0,
+      "observer_finalize_count": 1
+    },
+    "timing_sha256": null
+  },
+  {
+    "mode": "ON1",
+    "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+    "checker_verified": true,
+    "lifecycle": {
+      "phase": "TERMINATED",
+      "checkpoint_capture_count": 1,
+      "inventory_freeze_count": 1,
+      "observer_arm_count": 1,
+      "observer_finalize_count": 1
+    },
+    "timing_sha256": "b0b46ec49eb2b5230f1d8789c26a7fd866f947854cdc856fb150de1abd3331fc"
+  },
+  {
+    "mode": "ON2",
+    "proof_sha256": "20b57dbd8f274c40d3e1d985b60cdc3d12ba36280b13c0390443e3cb9ca4e48b",
+    "checker_verified": true,
+    "lifecycle": {
+      "phase": "TERMINATED",
+      "checkpoint_capture_count": 1,
+      "inventory_freeze_count": 1,
+      "observer_arm_count": 1,
+      "observer_finalize_count": 1
+    },
+    "timing_sha256": "b0b46ec49eb2b5230f1d8789c26a7fd866f947854cdc856fb150de1abd3331fc"
+  }
+]
