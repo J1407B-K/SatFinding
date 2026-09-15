@@ -1,5 +1,14 @@
 # 实验数据保留与清理
 
+## Fresh executable evidence：永久保留（2026-09-15）
+
+`results/fresh_heuristic_causal_cohort_v1/`、
+`results/fresh_trajectory_divergence_audit_v1/` 及其对应的
+`execution_pipeline_v1/` 源码、构建、可执行文件、输入、requests、proofs、
+checker 输出、telemetry、route-level mappings 和 manifests 必须永久保留。
+下文历史清理规则不适用于这些目录；不得以“可重生成”为由清理。
+旧 H1–H5 executable provenance 已永久丢失，不得重新纳入 active science。
+
 2026-09-11 清理仅涉及未跟踪的可重生成实验产物，没有删除已跟踪文件或改写 Git 历史。
 逐文件路径、大小与 SHA-256 见 [删除清单](results/cleanup_20260911.json)。
 
